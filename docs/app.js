@@ -43,7 +43,7 @@
       const trailsHtml = lift.trails.map(t => {
         const dc = difficultyClass(t.difficulty);
         return `
-          <div class="trail-item" data-difficulty="${dc}" data-searchable="${escHtml((t.name + ' ' + t.desc + ' ' + (t.warning || '')).toLowerCase())}">
+          <div class="trail-item" data-trail="${escHtml(t.name)}" data-difficulty="${dc}" data-searchable="${escHtml((t.name + ' ' + t.desc + ' ' + (t.warning || '')).toLowerCase())}">
             <span class="trail-badge ${dc}">${difficultyLabel(t.difficulty)}</span>
             <div class="trail-info">
               <div class="trail-name">${escHtml(t.name)}</div>
@@ -555,10 +555,53 @@
   function normalizeLiftName(name) {
     return name.toLowerCase()
       .replace(/\(.*?\)/g, '')
-      .replace(/['']/g, "'")
+      .replace(/[\u2018\u2019'']/g, "'")
       .replace(/\s*(express|gondola|lift|6-pack|triple|double|quad|bubble)\s*/gi, ' ')
       .trim()
       .replace(/\s+/g, ' ');
+  }
+
+  function normalizeTrailName(name) {
+    return name.toLowerCase()
+      .replace(/[\u2018\u2019'']/g, "'")
+      .replace(/[^a-z0-9' ]/g, ' ')
+      .trim()
+      .replace(/\s+/g, ' ');
+  }
+
+  function buildTrailStatusMap(groomingAreas) {
+    const map = {};
+    groomingAreas.forEach(area => {
+      const trails = area.Trails || area.trails || [];
+      trails.forEach(trail => {
+        const name = trail.Name || trail.name;
+        const status = trail.Status || trail.status || '';
+        if (name) {
+          map[normalizeTrailName(name)] = {
+            status: status,
+            isOpen: /open/i.test(status),
+            isGroomed: !!(trail.IsGroomed || trail.isGroomed)
+          };
+        }
+      });
+    });
+    return map;
+  }
+
+  function getTrailStatus(trailName, statusMap) {
+    const norm = normalizeTrailName(trailName);
+    if (statusMap[norm]) return statusMap[norm];
+    // Handle multi-trail entries like "Fools Gold / Glory Hole"
+    const parts = trailName.split(/\s*[\/,]\s*/);
+    for (const part of parts) {
+      const pn = normalizeTrailName(part.trim());
+      if (pn && statusMap[pn]) return statusMap[pn];
+    }
+    // Partial match
+    for (const [key, val] of Object.entries(statusMap)) {
+      if (key.includes(norm) || norm.includes(key)) return val;
+    }
+    return null;
   }
 
   function buildLiftStatusMap(lifts) {
@@ -624,6 +667,31 @@
         dot.className = `live-dot ${status.isOpen ? 'open' : 'closed'}`;
         dot.title = status.status;
         target.prepend(dot);
+      });
+    }
+
+    // --- Trail status dots from terrain API GroomingAreas ---
+    if (terrain?.GroomingAreas?.length) {
+      const trailMap = buildTrailStatusMap(terrain.GroomingAreas);
+
+      document.querySelectorAll('[data-trail]').forEach(el => {
+        const trailName = el.dataset.trail;
+        const status = getTrailStatus(trailName, trailMap);
+        if (!status) return;
+
+        // Remove existing dot if re-applying
+        el.querySelectorAll('.trail-status').forEach(d => d.remove());
+
+        const badge = document.createElement('span');
+        badge.className = `trail-status ${status.isOpen ? 'open' : 'closed'}`;
+        badge.textContent = status.isOpen ? 'Open' : 'Closed';
+        badge.title = status.status + (status.isGroomed ? ' (Groomed)' : '');
+
+        const info = el.querySelector('.trail-info');
+        if (info) {
+          const nameEl = info.querySelector('.trail-name');
+          if (nameEl) nameEl.appendChild(badge);
+        }
       });
     }
   }

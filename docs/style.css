@@ -930,6 +930,29 @@ body {
   margin-right: 4px;
 }
 
+/* Trail open/closed badge — inline with trail name */
+.trail-status {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 1px 6px;
+  border-radius: var(--radius-pill);
+  margin-left: 6px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+.trail-status.open {
+  background: var(--green-bg);
+  color: var(--green-text);
+}
+.trail-status.closed {
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
 /* --- Conditions Tab --- */
 
 /* Loading & empty states */
