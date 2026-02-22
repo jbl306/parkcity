@@ -144,6 +144,29 @@ def main():
         # Wait for JS bundles (liftStatus/trailStatus) to render
         page.wait_for_timeout(15000)
 
+        # ── Expand all collapsed lift & trail accordions ──
+        expanded = page.evaluate("""() => {
+            let count = 0;
+            // Expand lift status panels
+            document.querySelectorAll('.liftStatus__statusPanel').forEach(panel => {
+                if (!panel.classList.contains('panelOpen')) {
+                    const heading = panel.querySelector('.liftStatus__statusPanel__heading');
+                    if (heading) { heading.click(); count++; }
+                }
+            });
+            // Expand trail status panels
+            document.querySelectorAll('.trailStatus__statusPanel').forEach(panel => {
+                if (!panel.classList.contains('panelOpen')) {
+                    const heading = panel.querySelector('.trailStatus__statusPanel__heading');
+                    if (heading) { heading.click(); count++; }
+                }
+            });
+            return count;
+        }""")
+        print(f"  [dom] Expanded {expanded} collapsed accordion panels")
+        if expanded > 0:
+            page.wait_for_timeout(2000)  # Let expanded content render
+
         # ── Extract lift & trail status from DOM ──
         dom_lifts = []
         dom_trails = []

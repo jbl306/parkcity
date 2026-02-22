@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T20:01:22.642567+00:00",
+  "scraped_at": "2026-02-22T20:11:14.371472+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -2287,13 +2287,13 @@
       "SortOrder": 0
     },
     "UnitOfMeasure": 1,
-    "WeatherShortDescription": "Sunny",
-    "CurrentTempStandard": 37.0,
+    "WeatherShortDescription": "Mostly Sunny",
+    "CurrentTempStandard": 38.0,
     "CurrentTempMetric": 3.0,
     "HighTempStandard": 39.0,
     "HighTempMetric": 4.0,
-    "LowTempStandard": 14.0,
-    "LowTempMetric": -10.0,
+    "LowTempStandard": 16.0,
+    "LowTempMetric": -9.0,
     "SnowReportSections": [
       {
         "Depth": {
@@ -2314,7 +2314,7 @@
     "OpenLifts": 0,
     "HoursOfOperationTitle": null,
     "CurrentWorkDay": null,
-    "WeatherIcon": "14",
+    "WeatherIcon": "11",
     "MountainCamLink": {
       "Anchor": "",
       "Class": "",
