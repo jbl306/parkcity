@@ -405,6 +405,8 @@ body {
 
 .trail-item:last-child { border-bottom: none; }
 .trail-item.hidden { display: none; }
+.trail-item.supplemental { opacity: 0.8; }
+.trail-item.supplemental .trail-name { font-weight: 500; }
 
 .trail-badge {
   flex-shrink: 0;

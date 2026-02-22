@@ -704,7 +704,101 @@
           if (nameEl) nameEl.appendChild(badge);
         }
       });
+
+      // --- Supplement: add scraped trails not already in data.js ---
+      supplementTrails(terrain.GroomingAreas, trailMap);
     }
+  }
+
+  function supplementTrails(groomingAreas, trailMap) {
+    // Collect all existing trail names (normalized) from the DOM
+    const existingTrails = new Set();
+    document.querySelectorAll('[data-trail]').forEach(el => {
+      existingTrails.add(normalizeTrailName(el.dataset.trail));
+    });
+
+    // For each grooming area, find ALL matching lift accordions and add missing trails
+    groomingAreas.forEach(area => {
+      const areaName = area.Name || '';
+      const trails = area.Trails || [];
+      if (!trails.length) return;
+
+      // Find all matching lift accordions by checking area name segments
+      const areaSegments = areaName.split(/[\/,]/).map(s => s.trim().toLowerCase());
+      const liftAccordions = document.querySelectorAll('#tab-trails [data-lift]');
+      const matchedAccordions = [];
+
+      for (const acc of liftAccordions) {
+        const liftName = acc.dataset.lift.toLowerCase();
+        const liftNorm = normalizeLiftName(acc.dataset.lift);
+        for (const seg of areaSegments) {
+          const segNorm = normalizeLiftName(seg);
+          if (liftNorm === segNorm || liftNorm.includes(segNorm) || segNorm.includes(liftNorm) ||
+              liftName.includes(seg) || seg.includes(liftName)) {
+            matchedAccordions.push(acc);
+            break;
+          }
+        }
+      }
+
+      if (!matchedAccordions.length) return;
+
+      // Use the first matched accordion as the primary target
+      const primaryAccordion = matchedAccordions[0];
+      const primaryInner = primaryAccordion.querySelector('.accordion-inner');
+      if (!primaryInner) return;
+
+      let addedCount = 0;
+      trails.forEach(trail => {
+        const name = trail.Name || '';
+        if (!name) return;
+        const norm = normalizeTrailName(name);
+        if (existingTrails.has(norm)) return;
+
+        // Check for partial matches (multi-trail entries in data.js like "Spyro / Sheamus")
+        let alreadyExists = false;
+        for (const existing of existingTrails) {
+          if (existing.includes(norm) || norm.includes(existing)) {
+            alreadyExists = true;
+            break;
+          }
+        }
+        if (alreadyExists) return;
+
+        existingTrails.add(norm); // prevent duplicates across areas
+
+        const difficulty = trail.Difficulty || 'blue';
+        const status = trail.Status || '';
+        const isOpen = /open/i.test(status);
+        const isGroomed = !!trail.IsGroomed;
+
+        const div = document.createElement('div');
+        div.className = 'trail-item supplemental';
+        div.dataset.trail = name;
+        div.dataset.difficulty = difficulty;
+        div.dataset.searchable = name.toLowerCase();
+
+        const statusBadge = `<span class="trail-status ${isOpen ? 'open' : 'closed'}" title="${isGroomed ? 'Groomed' : ''}">${isOpen ? 'Open' : 'Closed'}</span>`;
+
+        div.innerHTML = `
+          <span class="trail-badge ${difficulty}">${difficultyLabel(difficulty)}</span>
+          <div class="trail-info">
+            <div class="trail-name">${escHtml(name)}${statusBadge}</div>
+          </div>`;
+
+        primaryInner.appendChild(div);
+        addedCount++;
+      });
+
+      // Update the badge count on the primary accordion header
+      if (addedCount > 0) {
+        const badge = primaryAccordion.querySelector('.accordion-badge');
+        if (badge) {
+          const current = parseInt(badge.textContent) || 0;
+          badge.textContent = current + addedCount;
+        }
+      }
+    });
   }
 
   function buildConditionsBanner(w, scrapedAt) {

@@ -68,10 +68,22 @@ JS_EXTRACT_TRAILS = """() => {
             const isOpen = statusClasses.includes('icon-status-open');
             const isGroomed = groomClasses.includes('icon-status-snowcat');
 
+            // Extract difficulty from the second icon element
+            const diffIcons = row.querySelectorAll('.trailStatus__trails__row--icon');
+            let difficulty = 'blue';  // default fallback
+            [...diffIcons].forEach(el => {
+                const cls = el.className;
+                if (cls.includes('icon-status-beginner')) difficulty = 'green';
+                else if (cls.includes('icon-status-intermediate')) difficulty = 'blue';
+                else if (cls.includes('icon-status-mostdifficult')) difficulty = 'black';
+                else if (cls.includes('icon-status-expert')) difficulty = 'double-black';
+            });
+
             return {
                 Name: nameEl ? nameEl.textContent.trim() : '',
                 Status: isOpen ? 'Open' : 'Closed',
-                IsGroomed: isGroomed
+                IsGroomed: isGroomed,
+                Difficulty: difficulty
             };
         }).filter(t => t.Name);
 

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T23:03:11.059764+00:00",
+  "scraped_at": "2026-02-22T23:13:59.007643+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -226,192 +226,230 @@
           {
             "Name": "1/4 Load",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "3/4 Load",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Blanche",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Bonanza Access",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Drift",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "green"
           },
           {
             "Name": "First Time Run",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Homerun (Lower)",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Stope",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Turtle Trail",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Upper First Time",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "green"
           },
           {
             "Name": "1/2 Load",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Alloy Alley",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Creole",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Dividend",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Heckler",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "King's Crown",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Ladies' Slalom",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Lower Silver Skis",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "PayDay Run",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Quit 'N Time",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "RDR",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Silver Hollow",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Town Run",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Treasure Hollow",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Crescent",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Erika's Gold",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Men's Slalom",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Nail Driver",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Shaft",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Silver King",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Silver Skis",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Waterfall",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Widowmaker",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Willy's Run",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "3 Kings",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Half Pipe",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Mini Pipe",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Pick 'N Shovel",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           }
         ]
       },
@@ -421,187 +459,224 @@
           {
             "Name": "Bonanza",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Flat Iron",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Homerun (Full)",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Mid-Mountain",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Mid-Mountain Cutoff",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Shortline",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Woodside",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Blaster",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Comstock",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Georgeanna",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Hawkeye",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Jonesy's",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Lucky Boy",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Mid-Mountain Meadows",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Muckers",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Powder Monkey",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Red Fox",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Silver Queen",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "10th Mountain",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Belmont",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Buckeye",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Pioneer",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Sampson",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Sundog",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "black"
           },
           {
             "Name": "Tycoon",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Berg's Bowl",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Black Forest",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Blueslip Bowl",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "McConkey's Bowl",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Molly's",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "O-Zone",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "P-Zone",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Pinyon Ridge",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Pioneer Ridge",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Puma Bowl",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "The Chutes",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Little Kings",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           }
         ]
       },
@@ -611,137 +686,164 @@
           {
             "Name": "Claimjumper",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Assessment",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Carbide Cut",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Detonator",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Hidden Splendor",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Jupiter Access",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Keystone",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Mel's Alley",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Parley's Park",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Powder Keg",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Short Fuse",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Single Jack",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Sunnyside",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "TNT",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Thaynes Canyon",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Zeke's Road",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Double Jack",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Dynamite",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Fool's Gold",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Glory Hole",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Lost Prospector",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Mikey's",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Newport",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Prospector",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "black"
           },
           {
             "Name": "Thaynes",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "The Hoist",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Motherlode Meadows",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           }
         ]
       },
@@ -751,142 +853,170 @@
           {
             "Name": "Broadway",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "King Con Access",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Road to Thaynes Canyon",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Rosebud",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Chance",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Courchevel",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Eureka",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Gotcha Cut-Off",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "High Card",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Hot Spot",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "King Con Ridge",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "King Con Run",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Liberty",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Monitor",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Shamus",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Silver Star",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Sitka",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Spiro",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Temptation",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "C.B.'s Run",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Climax",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Combustion",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Commitment",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Ligety Split",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Picabo's",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Seldom Seen",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Vista",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Pick Axe",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           }
         ]
       },
@@ -896,127 +1026,152 @@
           {
             "Name": "1st Bowl",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "6 Bells",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Constellation",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Dead Tree",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Fortune Teller",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Half Moon",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Homelite",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Indicator",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Limelite",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Lite's Out",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Main Bowl",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "New Moon",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Pinecone Bowl",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Pinecone Ridge",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Portuguese Gap",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Quarter Moon",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Rhino",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Sam's Knob",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Scott's Bowl",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Shadow Ridge",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Silver Cliff",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Two Goons",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "War Zone",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "West Face",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "West Scott's Bowl",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           }
         ]
       },
@@ -1026,102 +1181,122 @@
           {
             "Name": "Blaise's Way",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Cascade",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Chrome Alley",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Copperhead",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Double Nickel",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Golden Spruce",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Lead Foot",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Mercury",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Mimi's Way",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Silver Streak",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Snowonder",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "The Highway",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Tin Cup",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Upper White Pine",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "White Pine",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Cobalt Woods",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Goldfinger",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Heavy Metal",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Iron Man",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Platinum Woods",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           }
         ]
       },
@@ -1131,162 +1306,194 @@
           {
             "Name": "Alpenglow",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Apparition",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Backstreet",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Bliss",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Bugle Ridge Bypass",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Dawn",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Day Dream",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "D\u00e9j\u00e0 Vu",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Elk Dance",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Lazy Day",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "McDonalds Meadow",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Mirage",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "OO2",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Oops",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Panorama",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Reaper",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Sandman",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Snow Meadow",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Trance",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Twilight",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Whitewater",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Winter Way",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Boogeyman",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Bugle Ridge",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Chimera",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Fools Paradise",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Illusion",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Phantasm",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Pipe Dream",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "black"
           },
           {
             "Name": "Shadow Lands",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Sleeper",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Specter",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           }
         ]
       },
@@ -1296,252 +1503,302 @@
           {
             "Name": "Another World",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Chicane",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Encore",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Escape",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Lower Crowning Glory",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Lower Harmony",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Middle Crowning Glory",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Peace",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Power Alley",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Red Pine Road",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Rhapsody",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Ripsaw",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Royal",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Sanctuary",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Serenity",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Showcase",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Silver Spur",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "South Fork",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Tombstone Alley",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Upper Crowning Glory",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Upper Harmony",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Cloud 9",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Diamond Ridge",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Escapade Woods",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Lightning",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Mystic Pines",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Paradise",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Paradise Bowl",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Paradise Chutes",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Pinball Alley",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Sidewinder",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Solace",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "The Drop",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Thunder",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Tranquility",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "94 Turns",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Aspen Grove",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Charlie Brown",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Deschutes",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Dutch Hollow",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "End Zone",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Fright Gully",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Grande",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Lower East Face",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Magic Line",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Moraine",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Red Pine Chutes",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Talus Garden",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "The Abyss",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Upper East Face",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           }
         ]
       },
@@ -1551,297 +1808,356 @@
           {
             "Name": "Alley Cat",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Hidden Bear",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Mellow Moose",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Sweet Pea",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Upper Mainline",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "green"
           },
           {
             "Name": "Arrowhead",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Badger's Bypass",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Boomer",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Broken Arrow",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Doc's Run",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Echo",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Eclipse",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Flume",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Flying Salmon",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Hurricane Alley",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Kokopelli",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Lookout Ridge",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Mainline",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Outlaw",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Painted Horse",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Pine Draw",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Raptor Way",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Retreat",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Road D.O.",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Sixes",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Snow Dancer",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Spider Monkey",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Sunrise",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "The Drain",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Thunder Rd.",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Tunnel of Fun",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Upper Lookout Ridge",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Willow Draw",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           },
           {
             "Name": "Badlands",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Black Hole",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Diablo",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Eagle",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Ecstasy",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Elk Ridge",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "G-Force",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Gallery",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Golden Glades",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Grizzly",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Lynx",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Massacre",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Mine Shaft",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "STH",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Shadows",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Silver Horse",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Silverado",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Silverado Bowl",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Super Fury",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "The Aspens",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "The Pines",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Tower",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Tree Time",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Tube",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Wapiti",
             "Status": "Open",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Transitions Terrain Park",
             "Status": "Open",
-            "IsGroomed": true
+            "IsGroomed": true,
+            "Difficulty": "blue"
           }
         ]
       },
@@ -1851,167 +2167,200 @@
           {
             "Name": "Alley",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Apex Ridge",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "EZ Street",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Lower Boa",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Spur",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Upper Apex Ridge",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Upper Boa",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "blue"
           },
           {
             "Name": "Aplande",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Canis Lupus",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Devil's Friend",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Kestrel",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Rendezvous Bowl",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Rendezvous Ridge",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Renegade",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Snow Draw",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Thrasher",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "Twister",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "black"
           },
           {
             "Name": "A-Chute",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "After Shock",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Condor Woods",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Five Trees",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Funnel Cloud",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "High Peak",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Junipers",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Lone Pine",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Murdock Bowl",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "One Hundred Turns",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Renny's Ridge",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Saddle Chutes",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Sticks & Stones",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Western Boundary",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Whippets Chutes",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           },
           {
             "Name": "Yard Sale",
             "Status": "Closed",
-            "IsGroomed": false
+            "IsGroomed": false,
+            "Difficulty": "double-black"
           }
         ]
       }
@@ -2287,7 +2636,7 @@
       "SortOrder": 0
     },
     "UnitOfMeasure": 1,
-    "WeatherShortDescription": "Sunny",
+    "WeatherShortDescription": "Mostly Sunny",
     "CurrentTempStandard": 40.0,
     "CurrentTempMetric": 4.0,
     "HighTempStandard": 40.0,
@@ -2314,7 +2663,7 @@
     "OpenLifts": 0,
     "HoursOfOperationTitle": null,
     "CurrentWorkDay": null,
-    "WeatherIcon": "14",
+    "WeatherIcon": "11",
     "MountainCamLink": {
       "Anchor": "",
       "Class": "",
