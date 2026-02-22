@@ -410,13 +410,34 @@
   // DIFFICULTY FILTER
   // ============================================================
 
-  let activeFilter = 'all';
+  let activeFilters = new Set(); // empty = show all
 
   $$('.filter-pill').forEach(pill => {
     pill.addEventListener('click', () => {
-      $$('.filter-pill').forEach(p => p.classList.remove('active'));
-      pill.classList.add('active');
-      activeFilter = pill.dataset.filter;
+      const f = pill.dataset.filter;
+      if (f === 'all') {
+        // "All" resets — clear all difficulty selections
+        activeFilters.clear();
+        $$('.filter-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+      } else {
+        // Toggle this difficulty on/off
+        if (activeFilters.has(f)) {
+          activeFilters.delete(f);
+          pill.classList.remove('active');
+        } else {
+          activeFilters.add(f);
+          pill.classList.add('active');
+        }
+        // Deactivate "All" pill when any difficulty is selected
+        const allPill = $('.filter-pill[data-filter="all"]');
+        if (activeFilters.size > 0) {
+          allPill.classList.remove('active');
+        } else {
+          // Nothing selected → revert to "All"
+          allPill.classList.add('active');
+        }
+      }
       applyFilters();
     });
   });
@@ -438,6 +459,10 @@
     }
   }
 
+  function matchesDifficultyFilter(difficulty) {
+    return activeFilters.size === 0 || activeFilters.has(difficulty);
+  }
+
   function filterTrails(query) {
     const activeSide = getActiveSide('tab-trails');
     const sideId = activeSide === 'mv' ? 'trails-mv' : 'trails-canyons';
@@ -450,7 +475,7 @@
       let anyVisible = false;
 
       items.forEach(item => {
-        const matchesDifficulty = activeFilter === 'all' || item.dataset.difficulty === activeFilter;
+        const matchesDifficulty = matchesDifficultyFilter(item.dataset.difficulty);
         const matchesSearch = !query || item.dataset.searchable.includes(query);
         const show = matchesDifficulty && matchesSearch;
         item.classList.toggle('hidden', !show);
@@ -461,7 +486,7 @@
       if (query && !anyVisible && acc.dataset.searchable.includes(query)) {
         // Show all items in this accordion if the lift name matches
         items.forEach(item => {
-          const matchesDifficulty = activeFilter === 'all' || item.dataset.difficulty === activeFilter;
+          const matchesDifficulty = matchesDifficultyFilter(item.dataset.difficulty);
           if (matchesDifficulty) {
             item.classList.remove('hidden');
             anyVisible = true;
@@ -474,7 +499,7 @@
     });
 
     const emptyState = document.getElementById('trails-empty');
-    emptyState.classList.toggle('visible', visibleCount === 0 && (query || activeFilter !== 'all'));
+    emptyState.classList.toggle('visible', visibleCount === 0 && (query || activeFilters.size > 0));
   }
 
   function filterTrees(query) {
@@ -482,7 +507,7 @@
     let visibleCount = 0;
 
     cards.forEach(card => {
-      const matchesDifficulty = activeFilter === 'all' || card.dataset.difficulty === activeFilter;
+      const matchesDifficulty = matchesDifficultyFilter(card.dataset.difficulty);
       const matchesSearch = !query || card.dataset.searchable.includes(query);
       const show = matchesDifficulty && matchesSearch;
       card.classList.toggle('hidden', !show);
@@ -490,7 +515,7 @@
     });
 
     const emptyState = document.getElementById('trees-empty');
-    emptyState.classList.toggle('visible', visibleCount === 0 && (query || activeFilter !== 'all'));
+    emptyState.classList.toggle('visible', visibleCount === 0 && (query || activeFilters.size > 0));
   }
 
   function filterRoutes(query) {
