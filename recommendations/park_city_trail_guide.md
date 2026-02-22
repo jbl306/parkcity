@@ -33,10 +33,10 @@
 - 🟩 **Home Run** — Wide for most part, narrows at corners; shortcut switchbacks via Lower Silver Skis
 - 🟦 **Lower Silver Skis** — Easy side of blue, unsigned but prominent entrance
 - 🟩 **Drift** — Narrow and very busy; avoid if possible (only real use: accessing town runs from upper mountain)
-- ⬛ **Waterfall** — Deceptively mild start, develops into serious mogul field quickly
+- ⬛ **Waterfall** ⚠️ — Deceptively mild start, develops into serious mogul field quickly — don't be fooled by the entrance
 
 ### Crescent *(out-of-base lift — busy mornings, great for black mogul laps)*
-- ⬛ **Crescent** — Very steep entrance, NOT intermediate level
+- ⬛ **Crescent** ⚠️ — Very steep entrance, NOT intermediate level — do not take this expecting a standard out-of-base run
 - 🟦 **Silver Queen** — Blue groomer; popular so gets mogulled/icy by end of day; flat route from top via U-turn at yurt
 - ⬛ **Shaft** — Old lift line, straight and narrow; short side-step up discourages crowds — favorite run in pod
 - ⬛ **Silver Skis / Silver King / Willy's Run** — Rotating grooming, develop decent bumps between grooms
@@ -85,7 +85,7 @@
 - 🟦 **Parley's Park** — Main run leading to multiple options/forks
 - 🟦 **SingleJack** — Nothing special; usable as easy route to Thaynes
 - ⬛ **Mikey's** — Groomed ~once a week
-- ⬛⬛ **Motherload Meadows** — Deceptively mild start; earns double black in super steep tight trees lower half
+- ⬛⬛ **Motherload Meadows** ⚠️ — Deceptively mild start; earns double black in super steep tight trees lower half — do NOT be fooled by the entrance
 - ⬛ **Fools Gold / Glory Hole** — Great black mogul runs
 - ⬛ **Prospector** — One of easiest blacks at PC (not steep), but busy and icy
 - 🟦 **Sunnyside** — Fantastic blue cruiser; only groomed every other night
@@ -103,8 +103,8 @@
 
 ### Pioneer *(underrated — best place to escape crowds on PC side)*
 - ⬛⬛ **Blue Slip Bowl (main)** — Steep mogulled face, not too technical
-- ⬛⬛ **Blue Slip Bowl (looker's right)** — Via gate behind Summit House; gnarly cliffs, rock bands
-- ⬛⬛ **Blue Slip Bowl (looker's left, under lift)** — Extremely steep technical trees with hidden cliffs
+- ⬛⬛ **Blue Slip Bowl (looker's right)** ⚠️ — Via gate behind Summit House; gnarly cliffs, rock bands
+- ⬛⬛ **Blue Slip Bowl (looker's left, under lift)** ⚠️ — Extremely steep technical trees with HIDDEN CLIFFS
 - 🟦 **Hawkeye + 2 unnamed blues** — Some of quietest blue cruisers anywhere on PC side
 - ⬛ **Samson** — Not typically groomed, occasional cat run
 - ⬛ **10th Mountain** — Best single black tree skiing on Mountain Village side
@@ -117,8 +117,8 @@
 - ⬛ **Tycoon** — Sometimes groomed, only one truly steep pitch
 - ⬛ **Sun Dog** — Sometimes groomed, only one truly steep pitch
 - ⬛ **Buckeye** — Sometimes groomed, only one truly steep pitch
-- ⬛⬛ **McConkey's Bowl** — Iconic, super steep bumped-up bowl; enter via Sun Dog for less steep start
-- ⬛⬛ **Molly's** — Insanely steep tree skiing; tighter trees skier's right but less steep + better snow that direction
+- ⬛⬛ **McConkey's Bowl** ⚠️ — Iconic, super steep bumped-up bowl; enter via Sun Dog for less steep start
+- ⬛⬛ **Molly's** ⚠️ — Insanely steep tree skiing; hidden drops at top; tighter trees skier's right but less steep + better snow that direction
 - ⬛⬛ **Black Forest** — Similar to Molly's, less technical entrance
 - ⬛ **Powder Monkey** — Super fun gully; watch for hidden bumps in low light; dumps behind lodge so save for last run down
 
@@ -130,7 +130,7 @@
 ### Jupiter Lift *(most tucked-away lift at PC, no easy routes down — best expert terrain)*
 - ⬛⬛ **War Zone** — Drops and straight lines at top; no hike needed
 - ⬛⬛ **Dead Tree / West Face / First Bull** — Relatively easier open faces; require some stepping; worth it on powder days
-- ⬛⬛ **Indicator / Six Bells** — Extremely narrow tree-defined chutes; hardest lines in all of PC; unsigned but follow tracks; keep great snow because so tucked away
+- ⬛⬛ **Indicator / Six Bells** ⚠️ — Extremely narrow tree-defined chutes; HARDEST lines in all of PC; unsigned but follow tracks; always ski with a partner
 - ⬛⬛ **Silver Cliffs** — Wider chute under namesake cliffs
 - ⬛ **Fortune Teller** — Cliffs/straight lines upper (avoidable); sun-blasted, doesn't hold snow well
 - ⬛ **Main Bull** — Easiest way down the lift
@@ -176,9 +176,9 @@
 - 🟦 **Apex Ridge** — One of longest/straightest blue cruisers you'll find; slightly steep for a blue, scope from lift
 - 🟦 **Boa** — Significantly milder than Apex; lower section gets flat with fast skiers blasting through
 - ⬛ **Condor Woods** — Standard steep glades; flows into Kanes Gully
-- ⬛⬛ **Kanes Gully** — Longest natural gully at PC; steep, narrow spots; only one emergency exit halfway; loads of fun on soft days, sketchy on hardpack
+- ⬛⬛ **Kanes Gully** ⚠️ — Longest natural gully at PC; steep, narrow spots; only ONE emergency exit halfway; once you enter you're committed; sketchy on hardpack
 - 🟦 **Appland / Kestrel** — Groomed every couple days; among best cruisers in Canyons when fresh-groomed
-- ⬛⬛ **Devil's Friend** — Biggest moguls at Park City; ultimate leg burner
+- ⬛⬛ **Devil's Friend** ⚠️ — Biggest moguls at Park City; ultimate leg burner; expert only
 - ⬛ **Thrasher** — Much wider mogul face
 - 🟦 **Rendezvous Ridge** — Lots of sun exposure
 - South-facing runs off ridge — Don't hold snow; only good a few days per season
@@ -219,7 +219,7 @@
 - 🟩 **Red Pine Road** — Easiest route to Red Pine Lodge; may need skating
 - ⬛ **Sidewinder** — Awesome steep cruiser with rotating grooming; fantastic laps, never feels crowded
 - ⬛ **Cloud 9** — Sister run to Sidewinder; rotating grooming, equally steep and fantastic
-- ⬛⬛ **Grande** — Sparse trees; deceptive cliff band halfway down
+- ⬛⬛ **Grande** ⚠️ — Sparse trees; DECEPTIVE cliff band halfway down — don't be fooled by the easy-looking entrance
 - ⬛⬛ **Desuites** — Super underrated; multiple hidden tree shoots in woods; flowy, long, keeps great snow
 - 🟦 **Pinball Alley** — Fairly mellow natural gully; short, not exciting
 - ⬛ **Encore** — Road less taken; nice little mogul field at end
@@ -235,7 +235,7 @@
 
 ### 9990 Express *(mostly double black mogul runs)*
 - ⬛⬛ **Red Pine Chutes (Magic Line / Charlie Brown / Red Pine Shoot)** — Somewhat underwhelming; more intermittent trees/faces than true chutes; 2-lift lap — save for when leaving 9990
-- ⬛⬛ **Dutch Hollow** — Mild ridge drops into super steep, rocky face
+- ⬛⬛ **Dutch Hollow** ⚠️ — Mild ridge drops into super steep, rocky face — don't be fooled by the mellow start
 - ⬛⬛ **Fright Gully** — Wide gully with huge moguls all the way down
 - ⬛⬛ **94 Turns** — Most iconic line; super wide face with VW-sized moguls; MUST HIT for all experts; short sidestep left of unload
 - ⬛⬛ **Zone left of lift** — Super steep face with shoots, cliffs, straight lines; gnarliest directly lift-served terrain
@@ -243,7 +243,7 @@
 - ⬛ **Talis Garden** — Moguls → open meadow → narrow natural gully to Peak 5
 
 ### Peak 5
-- ⬛⬛ **The Abyss** — Looks like standard trees from top; develops into gnarliest terrain at PC with series of named chutes; do NOT enter without cliff/chute preparation
+- ⬛⬛ **The Abyss** ⚠️ — Looks like standard trees from top but develops into GNARLIEST terrain at PC with series of named chutes; do NOT enter without cliff/chute preparation
 - ⬛ **Mystic Pines** — Really good tree skiing; much better than Condor Woods/Black Hole on lower mountain
 - 🟦 **Colony blues (Crowning Glory, etc.)** — Rotating grooming, super long through affluent neighborhood; quiet and fun; Serenity + right side = 2-lift lap via Tombstone
 - 🟩 **Power Alley** — Road returning to Peak 5
@@ -266,11 +266,11 @@
 
 ### Dreamcatcher *(fixed grip, 10 min base + constant stops = 15+ min real ride — serves great terrain)*
 - ⬛ **Spectre / Fool's Paradise** — Several cut mogul lines + solid tree skiing; watch for thickets at bottom
-- ⬛⬛ **Chimera** — Under lift; keeps great snow (shaded); exceedingly steep moguls; would be double black at most mountains
+- ⬛⬛ **Chimera** ⚠️ — Under lift; keeps great snow (shaded); exceedingly steep moguls; would be DOUBLE BLACK at most mountains — harder than rated
 - ⬛ **Fantasm** — Great long cruiser; rotating grooming; still skis well days after fresh groom
 - ⬛ **Boogeyman** — Groomed most frequently; steep cruiser
 - ⬛ **Pipedream** — Gets lots of sun/icy; only recommend day after grooming; easiest of three when groomed
-- ⬛⬛ **Shadowlands** (backside) — More double black than single; precipitous face with tree patches
+- ⬛⬛ **Shadowlands** (backside) ⚠️ — More double black than single; precipitous face with tree patches — harder than rated
 - ⬛ **Sandman** (backside) — Take the left off Upper Trance — Trance itself gets flat beyond
 - 🟦 **Upper Trance** — Moderately pitched road to backside terrain
 - 🟦 **Twilight / Mirage / Apparition** — Blue groomers down to Dreamcatcher from Alpenlow
