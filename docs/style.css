@@ -858,6 +858,78 @@ body {
 
 .no-results.visible { display: block; }
 
+/* --- Live Status Banner & Dots --- */
+
+.live-banner {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  background: var(--success-bg);
+  border: 1px solid var(--success-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  color: var(--success-text);
+  flex-wrap: wrap;
+  line-height: 1.4;
+}
+.banner-icon {
+  font-size: 0.95rem;
+  color: var(--green);
+}
+.banner-stat {
+  white-space: nowrap;
+}
+.banner-stat strong {
+  font-weight: 700;
+}
+.banner-sep {
+  color: var(--text-muted);
+  margin: 0 1px;
+}
+.banner-time {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
+/* Lift status dot — prepended to accordion titles, tree card headers, map nodes */
+.live-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.live-dot.open {
+  background: var(--green);
+  box-shadow: 0 0 4px var(--green);
+}
+.live-dot.closed {
+  background: var(--dblack);
+  opacity: 0.7;
+}
+
+/* When live dot is inside accordion title, shift the emoji */
+.accordion-title .live-dot {
+  margin-right: 4px;
+  position: relative;
+  top: -1px;
+}
+
+/* When live dot is inside tree card header */
+.tree-card-header .live-dot {
+  margin-right: 6px;
+}
+
+/* When live dot is inside map flow node */
+.flow-node-name .live-dot {
+  margin-right: 4px;
+}
+
 /* --- Conditions Tab --- */
 
 /* Loading & empty states */

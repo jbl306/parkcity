@@ -56,7 +56,7 @@
       const liftWarning = lift.warning ? `<div class="lift-warning">${escHtml(lift.warning)}</div>` : '';
 
       html += `
-        <div class="accordion" data-searchable="${escHtml((lift.lift + ' ' + lift.liftInfo + ' ' + lift.trails.map(t => t.name + ' ' + t.desc).join(' ')).toLowerCase())}">
+        <div class="accordion" data-lift="${escHtml(lift.lift)}" data-searchable="${escHtml((lift.lift + ' ' + lift.liftInfo + ' ' + lift.trails.map(t => t.name + ' ' + t.desc).join(' ')).toLowerCase())}">
           <div class="accordion-header" onclick="toggleAccordion(this)">
             <div class="accordion-title">
               🚡 ${escHtml(lift.lift)}
@@ -219,7 +219,7 @@
     const searchable = (run.name + ' ' + run.lift + ' ' + run.location + ' ' + (notes || '')).toLowerCase();
 
     return `
-      <div class="tree-card ${isAvoid ? 'avoid-card' : ''}" data-difficulty="${dc}" data-searchable="${escHtml(searchable)}">
+      <div class="tree-card ${isAvoid ? 'avoid-card' : ''}" data-lift="${escHtml(run.lift)}" data-difficulty="${dc}" data-searchable="${escHtml(searchable)}">
         <div class="tree-card-header">
           ${!isAvoid ? `<span class="trail-badge ${dc}">${difficultyLabel(run.difficulty)}</span>` : ''}
           <span class="tree-card-name">${escHtml(run.name)}</span>
@@ -315,7 +315,7 @@
         const tipText = conns.map(c => `→ ${c.label}`).join(' · ');
 
         html += `
-          <div class="flow-node ${node.type}" data-id="${node.id}">
+          <div class="flow-node ${node.type}" data-id="${node.id}" data-lift="${escHtml(node.name)}">
             <div class="flow-node-name"><span class="node-indicator"></span>${escHtml(node.name)}</div>
             <div class="flow-node-info">${escHtml(node.info)}</div>
             ${tipText ? `<div class="flow-node-tip">${escHtml(tipText)}</div>` : ''}
@@ -536,6 +536,114 @@
   }
 
   // ============================================================
+  // LIVE STATUS — Overlay lift/trail status on all tabs
+  // ============================================================
+
+  let liveConditions = null;
+
+  function fetchLiveConditions() {
+    fetch('conditions.json')
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if (!data) return;
+        liveConditions = data;
+        applyLiveStatus();
+      })
+      .catch(() => {});
+  }
+
+  function normalizeLiftName(name) {
+    return name.toLowerCase()
+      .replace(/\(.*?\)/g, '')
+      .replace(/['']/g, "'")
+      .replace(/\s*(express|gondola|lift|6-pack|triple|double|quad|bubble)\s*/gi, ' ')
+      .trim()
+      .replace(/\s+/g, ' ');
+  }
+
+  function buildLiftStatusMap(lifts) {
+    const map = {};
+    lifts.forEach(lift => {
+      map[normalizeLiftName(lift.Name)] = {
+        status: lift.Status,
+        isOpen: /open/i.test(lift.Status)
+      };
+    });
+    return map;
+  }
+
+  function getLiftStatus(liftName, statusMap) {
+    const norm = normalizeLiftName(liftName);
+    if (statusMap[norm]) return statusMap[norm];
+    // Partial match — either direction
+    for (const [key, val] of Object.entries(statusMap)) {
+      if (key.includes(norm) || norm.includes(key)) return val;
+    }
+    return null;
+  }
+
+  function applyLiveStatus() {
+    if (!liveConditions) return;
+    const data = liveConditions;
+    const w = data.weather;
+
+    // --- Conditions banner on Trails, Trees, Maps tabs ---
+    if (w) {
+      const bannerHtml = buildConditionsBanner(w, data.scraped_at);
+      ['tab-trails', 'tab-trees', 'tab-maps'].forEach(tabId => {
+        const tab = document.getElementById(tabId);
+        let banner = tab.querySelector('.live-banner');
+        if (!banner) {
+          banner = document.createElement('div');
+          banner.className = 'live-banner';
+          tab.insertBefore(banner, tab.firstChild);
+        }
+        banner.innerHTML = bannerHtml;
+      });
+    }
+
+    // --- Lift status dots from terrain API ---
+    const terrain = data.terrain;
+    if (terrain?.Lifts?.length) {
+      const statusMap = buildLiftStatusMap(terrain.Lifts);
+
+      document.querySelectorAll('[data-lift]').forEach(el => {
+        const liftName = el.dataset.lift;
+        const status = getLiftStatus(liftName, statusMap);
+        if (!status) return;
+
+        // Remove existing dot if re-applying
+        el.querySelectorAll('.live-dot').forEach(d => d.remove());
+
+        // Find the right insertion target
+        const target = el.querySelector('.accordion-title') ||
+                       el.querySelector('.tree-card-header') ||
+                       el.querySelector('.flow-node-name') || el;
+
+        const dot = document.createElement('span');
+        dot.className = `live-dot ${status.isOpen ? 'open' : 'closed'}`;
+        dot.title = status.status;
+        target.prepend(dot);
+      });
+    }
+  }
+
+  function buildConditionsBanner(w, scrapedAt) {
+    let parts = [];
+    if (w.Lifts?.Open) parts.push(`<span class="banner-stat"><strong>${w.Lifts.Open}</strong>/${w.Lifts.Total} lifts</span>`);
+    if (w.Runs?.Open) parts.push(`<span class="banner-stat"><strong>${w.Runs.Open}</strong>/${w.Runs.Total} runs</span>`);
+    if (w.SnowConditions) parts.push(`<span class="banner-stat">${escHtml(w.SnowConditions)}</span>`);
+
+    let timeStr = '';
+    if (scrapedAt) timeStr = formatTimeAgo(new Date(scrapedAt));
+
+    return `
+      <span class="material-symbols-outlined banner-icon">sensors</span>
+      ${parts.join('<span class="banner-sep">·</span>')}
+      ${timeStr ? `<span class="banner-time">${timeStr}</span>` : ''}`;
+  }
+
+  // ============================================================
   // RENDER: Conditions Tab (Live data from scraper)
   // ============================================================
 
@@ -545,12 +653,21 @@
     if (conditionsLoaded) return;
     conditionsLoaded = true;
 
+    // Use cached data if already fetched by live status system
+    if (liveConditions) {
+      renderConditions(liveConditions);
+      return;
+    }
+
     fetch('conditions.json')
       .then(r => {
         if (!r.ok) throw new Error('No conditions data yet');
         return r.json();
       })
-      .then(data => renderConditions(data))
+      .then(data => {
+        liveConditions = data;
+        renderConditions(data);
+      })
       .catch(() => {
         document.getElementById('conditions-content').innerHTML = `
           <div class="conditions-empty">
@@ -776,5 +893,6 @@
   renderStrategy();
   renderTrees();
   renderMaps();
+  fetchLiveConditions();
 
 })();
