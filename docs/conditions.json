@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T21:58:38.567012+00:00",
+  "scraped_at": "2026-02-22T22:24:23.838195+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -2288,7 +2288,7 @@
     },
     "UnitOfMeasure": 1,
     "WeatherShortDescription": "Sunny",
-    "CurrentTempStandard": 39.0,
+    "CurrentTempStandard": 40.0,
     "CurrentTempMetric": 4.0,
     "HighTempStandard": 40.0,
     "HighTempMetric": 4.0,
@@ -2342,7 +2342,7 @@
     }
   },
   "opensnow": {
-    "CurrentTempStandard": 36.0,
+    "CurrentTempStandard": 37.0,
     "CurrentTempMetric": 2.0,
     "CurrentUpdated": null,
     "NextUpdated": null,
@@ -2388,40 +2388,27 @@
     ],
     "HourlyForecastData": [
       {
-        "TempStandard": 36.31,
+        "TempStandard": 37.12,
         "TempMetric": 2.0,
         "WeatherIconStatus": "14",
         "WeatherShortDescription": "Sunny",
         "Wind": "SSW",
-        "WindSpeed": 6.33,
-        "WindGustSpeed": 10.74,
-        "WindDirection": 204,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-22T21:00:00Z"
-      },
-      {
-        "TempStandard": 36.72,
-        "TempMetric": 2.0,
-        "WeatherIconStatus": "14",
-        "WeatherShortDescription": "Sunny",
-        "Wind": "SSW",
-        "WindSpeed": 7.06,
-        "WindGustSpeed": 12.17,
+        "WindSpeed": 7.82,
+        "WindGustSpeed": 13.49,
         "WindDirection": 207,
         "PrecipitationType": 0,
         "ProbabilityOfPrecipitation": 0.0,
         "Date": "2026-02-22T22:00:00Z"
       },
       {
-        "TempStandard": 36.49,
+        "TempStandard": 36.72,
         "TempMetric": 2.0,
         "WeatherIconStatus": "11",
         "WeatherShortDescription": "Mostly Sunny",
         "Wind": "SSW",
-        "WindSpeed": 6.35,
-        "WindGustSpeed": 10.8,
-        "WindDirection": 207,
+        "WindSpeed": 7.01,
+        "WindGustSpeed": 11.92,
+        "WindDirection": 208,
         "PrecipitationType": 0,
         "ProbabilityOfPrecipitation": 0.0,
         "Date": "2026-02-22T23:00:00Z"
@@ -2464,6 +2451,19 @@
         "PrecipitationType": 0,
         "ProbabilityOfPrecipitation": 0.0,
         "Date": "2026-02-23T02:00:00Z"
+      },
+      {
+        "TempStandard": 30.94,
+        "TempMetric": -1.0,
+        "WeatherIconStatus": "12",
+        "WeatherShortDescription": "Partly Cloudy",
+        "Wind": "SW",
+        "WindSpeed": 9.19,
+        "WindGustSpeed": 12.75,
+        "WindDirection": 214,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-23T03:00:00Z"
       }
     ],
     "HighTempStandard": 36.0,
@@ -2474,14 +2474,14 @@
     "WeatherLongDescription": null,
     "WeatherShortDescription": "Sunny",
     "Wind": "SSW",
-    "WindSpeed": 6.33,
+    "WindSpeed": 7.82,
     "FreezingLevelMetric": null,
     "FreezingLevelStandard": null,
     "SnowFallDayStandard": null,
     "SnowFallDayMetric": null,
     "SnowFallNightStandard": null,
     "SnowFallNightMetric": null,
-    "Date": "2026-02-22T21:00:00Z",
+    "Date": "2026-02-22T22:00:00Z",
     "LastCached": "0001-01-01T00:00:00"
   }
 }
