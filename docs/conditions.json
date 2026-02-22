@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T21:22:06.115780+00:00",
+  "scraped_at": "2026-02-22T21:46:10.490394+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -2029,7 +2029,7 @@
     "DisplayReportDateTime": false,
     "DisplayAllOpen": false,
     "Lifts": {
-      "Open": "38",
+      "Open": "39",
       "Total": "43",
       "Text": null,
       "DisplayOpen": true,
@@ -2371,9 +2371,9 @@
         "HighTempMetric": 5.0,
         "LowTempStandard": 29.0,
         "LowTempMetric": -2.0,
-        "WeatherIconStatus": "12",
+        "WeatherIconStatus": "13",
         "WeatherLongDescription": null,
-        "WeatherShortDescription": "Partly Cloudy",
+        "WeatherShortDescription": "Mostly Cloudy",
         "Wind": "SW",
         "WindSpeed": 8.31,
         "FreezingLevelMetric": null,
@@ -2388,7 +2388,7 @@
     ],
     "HourlyForecastData": [
       {
-        "TempStandard": 36.35,
+        "TempStandard": 36.31,
         "TempMetric": 2.0,
         "WeatherIconStatus": "14",
         "WeatherShortDescription": "Sunny",
@@ -2401,7 +2401,7 @@
         "Date": "2026-02-22T21:00:00Z"
       },
       {
-        "TempStandard": 36.75,
+        "TempStandard": 36.72,
         "TempMetric": 2.0,
         "WeatherIconStatus": "14",
         "WeatherShortDescription": "Sunny",
@@ -2414,7 +2414,7 @@
         "Date": "2026-02-22T22:00:00Z"
       },
       {
-        "TempStandard": 36.53,
+        "TempStandard": 36.49,
         "TempMetric": 2.0,
         "WeatherIconStatus": "11",
         "WeatherShortDescription": "Mostly Sunny",
@@ -2427,7 +2427,7 @@
         "Date": "2026-02-22T23:00:00Z"
       },
       {
-        "TempStandard": 35.85,
+        "TempStandard": 35.81,
         "TempMetric": 2.0,
         "WeatherIconStatus": "12",
         "WeatherShortDescription": "Partly Cloudy",
@@ -2440,7 +2440,7 @@
         "Date": "2026-02-23T00:00:00Z"
       },
       {
-        "TempStandard": 33.71,
+        "TempStandard": 33.65,
         "TempMetric": 0.0,
         "WeatherIconStatus": "12",
         "WeatherShortDescription": "Partly Cloudy",
@@ -2453,8 +2453,8 @@
         "Date": "2026-02-23T01:00:00Z"
       },
       {
-        "TempStandard": 32.05,
-        "TempMetric": 0.0,
+        "TempStandard": 31.95,
+        "TempMetric": -1.0,
         "WeatherIconStatus": "12",
         "WeatherShortDescription": "Partly Cloudy",
         "Wind": "SW",
