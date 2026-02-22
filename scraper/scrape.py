@@ -2,14 +2,12 @@
 Park City Mountain — Live Conditions Scraper
 
 Uses Playwright (headless Chromium) to load the Park City terrain page.
-The page itself calls cache.snow.com APIs via XHR — we intercept those
-responses to get structured JSON data for:
-  - Lift status & trail status (TerrainApi)
-  - Weather conditions (WeatherApi)
-  - Snow forecast (OpenSnow)
+
+Primary: Intercepts cache.snow.com XHR responses for weather / forecast data.
+Fallback: Scrapes lift & trail status directly from the rendered DOM, since
+          the TerrainApi frequently returns empty data ({IsSuccessful: false}).
 
 Outputs docs/conditions.json for the frontend to consume.
-
 Designed to run on GitHub Actions every 10 min during operating hours.
 """
 
@@ -32,6 +30,54 @@ OUTPUT_PATH = Path(__file__).resolve().parent.parent / "docs" / "conditions.json
 
 # Whether to run headless (True for CI, False for local debugging)
 HEADLESS = "--headed" not in sys.argv
+
+
+# ── DOM extraction scripts ─────────────────────────────────────
+
+JS_EXTRACT_LIFTS = """() => {
+    const rows = document.querySelectorAll('.liftStatus__lifts__row');
+    return [...rows].map(row => {
+        const nameEl = row.querySelector('.liftStatus__lifts__row__title');
+        const timeEl = row.querySelector('.liftStatus__lifts__row__time');
+        const iconEl = row.querySelector('[class*="icon-status-"]');
+        const classes = iconEl ? [...iconEl.classList].join(' ') : '';
+        const isOpen = classes.includes('icon-status-open');
+        return {
+            Name: nameEl ? nameEl.textContent.trim() : '',
+            Status: isOpen ? 'Open' : 'Closed',
+            Hours: timeEl ? timeEl.textContent.trim() : ''
+        };
+    }).filter(l => l.Name);
+}"""
+
+JS_EXTRACT_TRAILS = """() => {
+    const panels = document.querySelectorAll('.trailStatus__statusPanel');
+    return [...panels].map(panel => {
+        // Area name from heading
+        const h2 = panel.querySelector('.trailStatus__statusPanel__info_container h2');
+        const areaName = h2 ? h2.childNodes[0].textContent.trim() : 'Unknown Area';
+
+        const rows = panel.querySelectorAll('.trailStatus__trails__row');
+        const trails = [...rows].map(row => {
+            const nameEl = row.querySelector('.trailStatus__trails__row--name');
+            const statusIcon = row.querySelector('.trailStatus__trails__row--icon[class*="icon-status-"]');
+            const groomIcon = row.querySelector('.trailStatus__trails__row--iconRight');
+
+            const statusClasses = statusIcon ? [...statusIcon.classList].join(' ') : '';
+            const groomClasses = groomIcon ? [...groomIcon.classList].join(' ') : '';
+            const isOpen = statusClasses.includes('icon-status-open');
+            const isGroomed = groomClasses.includes('icon-status-snowcat');
+
+            return {
+                Name: nameEl ? nameEl.textContent.trim() : '',
+                Status: isOpen ? 'Open' : 'Closed',
+                IsGroomed: isGroomed
+            };
+        }).filter(t => t.Name);
+
+        return { Name: areaName, Trails: trails };
+    }).filter(a => a.Trails.length > 0);
+}"""
 
 
 def main():
@@ -74,32 +120,82 @@ def main():
 
         print("[scrape] Loading terrain page...")
         page.goto(TERRAIN_URL, wait_until="domcontentloaded", timeout=60000)
-        # Wait for the async API calls to complete
+
+        # Dismiss common popups (cookie consent, marketing overlays)
+        popup_selectors = [
+            "#onetrust-accept-btn-handler",          # OneTrust cookie consent
+            "button[id*='accept']",                   # Generic accept buttons
+            ".onetrust-close-btn-handler",            # OneTrust close
+            "[aria-label='Close']",                   # Generic close buttons
+            ".modal-close",                           # Modal close
+            "button.close",                           # Bootstrap close
+        ]
+        page.wait_for_timeout(3000)  # Let popups render
+        for sel in popup_selectors:
+            try:
+                btn = page.query_selector(sel)
+                if btn and btn.is_visible():
+                    btn.click()
+                    print(f"  [popup] Dismissed: {sel}")
+                    page.wait_for_timeout(1000)
+            except Exception:
+                pass
+
+        # Wait for JS bundles (liftStatus/trailStatus) to render
         page.wait_for_timeout(15000)
+
+        # ── Extract lift & trail status from DOM ──
+        dom_lifts = []
+        dom_trails = []
+        try:
+            dom_lifts = page.evaluate(JS_EXTRACT_LIFTS) or []
+            print(f"  [dom] Extracted {len(dom_lifts)} lifts from DOM")
+        except Exception as e:
+            print(f"  [dom] Lift extraction failed: {e}")
+
+        try:
+            dom_trails = page.evaluate(JS_EXTRACT_TRAILS) or []
+            trail_count = sum(len(a["Trails"]) for a in dom_trails)
+            print(f"  [dom] Extracted {trail_count} trails across {len(dom_trails)} areas from DOM")
+        except Exception as e:
+            print(f"  [dom] Trail extraction failed: {e}")
 
         browser.close()
 
-    if not captured:
-        print("[scrape] ERROR: No API responses captured. WAF may have blocked.")
+    if not captured and not dom_lifts and not dom_trails:
+        print("[scrape] ERROR: No API responses captured and DOM extraction empty.")
         sys.exit(1)
 
     # Parse the captured JSON
     result = {"scraped_at": datetime.now(timezone.utc).isoformat()}
 
-    # --- Terrain (lifts + trails) ---
+    # ── Terrain (lifts + trails) ──
+    terrain_api_ok = False
     if "terrain" in captured:
         try:
             terrain_raw = json.loads(captured["terrain"])
-            result["terrain"] = terrain_raw
-            # Count items for logging
-            lift_count = count_items(terrain_raw, "lift")
-            trail_count = count_items(terrain_raw, "trail")
-            print(f"[scrape] Terrain data captured ({lift_count} lift-like, {trail_count} trail-like items)")
+            # Check if the API actually returned useful data
+            has_lifts = bool(terrain_raw.get("Lifts"))
+            has_areas = bool(terrain_raw.get("GroomingAreas"))
+            if has_lifts or has_areas:
+                result["terrain"] = terrain_raw
+                terrain_api_ok = True
+                print(f"[scrape] Terrain API OK ({len(terrain_raw.get('Lifts', []))} lifts, "
+                      f"{len(terrain_raw.get('GroomingAreas', []))} areas)")
         except Exception as e:
             print(f"[scrape] Failed to parse terrain JSON: {e}")
-            result["terrain_raw"] = captured["terrain"][:20000]
 
-    # --- Weather ---
+    # Fallback: use DOM-scraped lift/trail data
+    if not terrain_api_ok and (dom_lifts or dom_trails):
+        print("[scrape] Terrain API empty/failed — using DOM-scraped data")
+        result["terrain"] = {
+            "IsSuccessful": True,
+            "Lifts": dom_lifts,
+            "GroomingAreas": dom_trails,
+            "source": "dom"
+        }
+
+    # ── Weather ──
     if "weather" in captured:
         try:
             result["weather"] = json.loads(captured["weather"])
@@ -107,7 +203,7 @@ def main():
         except Exception as e:
             print(f"[scrape] Failed to parse weather: {e}")
 
-    # --- Weather header ---
+    # ── Weather header ──
     if "weather_header" in captured:
         try:
             result["weather_header"] = json.loads(captured["weather_header"])
@@ -115,7 +211,7 @@ def main():
         except Exception:
             pass
 
-    # --- OpenSnow ---
+    # ── OpenSnow ──
     if "opensnow" in captured:
         try:
             result["opensnow"] = json.loads(captured["opensnow"])
@@ -127,34 +223,6 @@ def main():
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(f"[scrape] Wrote {OUTPUT_PATH} ({OUTPUT_PATH.stat().st_size} bytes)")
-
-    # Save raw for debugging
-    debug_path = Path(__file__).resolve().parent / "debug_raw.json"
-    debug_data = {}
-    for k, v in captured.items():
-        try:
-            debug_data[k] = json.loads(v)
-        except Exception:
-            debug_data[k] = v[:5000]
-    debug_path.write_text(json.dumps(debug_data, indent=2), encoding="utf-8")
-    print(f"[scrape] Debug data saved to {debug_path}")
-
-
-def count_items(obj, keyword):
-    """Recursively count dict items whose keys contain the keyword."""
-    count = 0
-    if isinstance(obj, dict):
-        for k, v in obj.items():
-            if keyword.lower() in k.lower():
-                if isinstance(v, list):
-                    count += len(v)
-                else:
-                    count += 1
-            count += count_items(v, keyword)
-    elif isinstance(obj, list):
-        for item in obj:
-            count += count_items(item, keyword)
-    return count
 
 
 if __name__ == "__main__":
