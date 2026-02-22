@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T22:49:35.804864+00:00",
+  "scraped_at": "2026-02-22T23:03:11.059764+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -2342,7 +2342,7 @@
     }
   },
   "opensnow": {
-    "CurrentTempStandard": 37.0,
+    "CurrentTempStandard": 36.0,
     "CurrentTempMetric": 2.0,
     "CurrentUpdated": null,
     "NextUpdated": null,
@@ -2387,19 +2387,6 @@
       }
     ],
     "HourlyForecastData": [
-      {
-        "TempStandard": 37.12,
-        "TempMetric": 2.0,
-        "WeatherIconStatus": "14",
-        "WeatherShortDescription": "Sunny",
-        "Wind": "SSW",
-        "WindSpeed": 7.82,
-        "WindGustSpeed": 13.49,
-        "WindDirection": 207,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-22T22:00:00Z"
-      },
       {
         "TempStandard": 36.72,
         "TempMetric": 2.0,
@@ -2464,24 +2451,37 @@
         "PrecipitationType": 0,
         "ProbabilityOfPrecipitation": 0.0,
         "Date": "2026-02-23T03:00:00Z"
+      },
+      {
+        "TempStandard": 30.48,
+        "TempMetric": -1.0,
+        "WeatherIconStatus": "12",
+        "WeatherShortDescription": "Partly Cloudy",
+        "Wind": "SSW",
+        "WindSpeed": 9.08,
+        "WindGustSpeed": 12.63,
+        "WindDirection": 211,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-23T04:00:00Z"
       }
     ],
     "HighTempStandard": 36.0,
     "HighTempMetric": 2.0,
     "LowTempStandard": 18.0,
     "LowTempMetric": -8.0,
-    "WeatherIconStatus": "14",
+    "WeatherIconStatus": "11",
     "WeatherLongDescription": null,
-    "WeatherShortDescription": "Sunny",
+    "WeatherShortDescription": "Mostly Sunny",
     "Wind": "SSW",
-    "WindSpeed": 7.82,
+    "WindSpeed": 7.01,
     "FreezingLevelMetric": null,
     "FreezingLevelStandard": null,
     "SnowFallDayStandard": null,
     "SnowFallDayMetric": null,
     "SnowFallNightStandard": null,
     "SnowFallNightMetric": null,
-    "Date": "2026-02-22T22:00:00Z",
+    "Date": "2026-02-22T23:00:00Z",
     "LastCached": "0001-01-01T00:00:00"
   }
 }
