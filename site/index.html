@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#f2f4f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1117" media="(prefers-color-scheme: dark)">
+  <title>Park City Ski Guide</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>⛷️ Park City <span>Insider's Guide</span></h1>
+  </header>
+
+  <!-- Toolbar: search + filters -->
+  <div class="toolbar" id="toolbar">
+    <div class="search-wrap">
+      <span class="material-symbols-outlined icon-search">search</span>
+      <input type="text" class="search-input" id="searchInput" placeholder="Search trails, lifts, routes…">
+      <button class="search-clear" id="searchClear" aria-label="Clear search">✕</button>
+    </div>
+    <div class="filter-row" id="filterRow">
+      <button class="filter-pill active" data-filter="all">All</button>
+      <button class="filter-pill" data-filter="green"><span class="dot" style="background:#22c55e"></span> Green</button>
+      <button class="filter-pill" data-filter="blue"><span class="dot" style="background:#3b82f6"></span> Blue</button>
+      <button class="filter-pill" data-filter="black"><span class="dot" style="background:#1e1e2e"></span> Black</button>
+      <button class="filter-pill" data-filter="double-black"><span class="dot" style="background:#dc2626"></span> 2× Black</button>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <main class="content has-filters" id="mainContent">
+
+    <!-- Tab: Trails -->
+    <div class="tab-content active" id="tab-trails">
+      <div class="side-toggle">
+        <button class="side-btn active" data-side="mv">Mountain Village</button>
+        <button class="side-btn" data-side="canyons">Canyons</button>
+      </div>
+      <div class="side-content active" id="trails-mv"></div>
+      <div class="side-content" id="trails-canyons"></div>
+      <div class="no-results" id="trails-empty">
+        <span class="material-symbols-outlined">search_off</span>
+        <p>No trails match your search</p>
+      </div>
+    </div>
+
+    <!-- Tab: Routes -->
+    <div class="tab-content" id="tab-routes">
+      <div class="side-toggle">
+        <button class="side-btn active" data-side="mv">Mountain Village</button>
+        <button class="side-btn" data-side="canyons">Canyons</button>
+      </div>
+      <div class="side-content active" id="routes-mv"></div>
+      <div class="side-content" id="routes-canyons"></div>
+      <div class="no-results" id="routes-empty">
+        <span class="material-symbols-outlined">search_off</span>
+        <p>No routes match your search</p>
+      </div>
+    </div>
+
+    <!-- Tab: Strategy -->
+    <div class="tab-content" id="tab-strategy">
+      <div class="side-toggle">
+        <button class="side-btn active" data-side="mv">Mountain Village</button>
+        <button class="side-btn" data-side="canyons">Canyons</button>
+      </div>
+      <div class="side-content active" id="strategy-mv"></div>
+      <div class="side-content" id="strategy-canyons"></div>
+    </div>
+
+    <!-- Tab: Trees -->
+    <div class="tab-content" id="tab-trees">
+      <div id="trees-content"></div>
+      <div class="no-results" id="trees-empty">
+        <span class="material-symbols-outlined">search_off</span>
+        <p>No tree runs match your search</p>
+      </div>
+    </div>
+
+    <!-- Tab: Maps -->
+    <div class="tab-content" id="tab-maps">
+      <div id="maps-content"></div>
+    </div>
+
+  </main>
+
+  <!-- Tab Bar -->
+  <nav class="tab-bar">
+    <button class="tab-btn active" data-tab="trails">
+      <span class="material-symbols-outlined">downhill_skiing</span>
+      <span class="tab-label">Trails</span>
+    </button>
+    <button class="tab-btn" data-tab="routes">
+      <span class="material-symbols-outlined">directions</span>
+      <span class="tab-label">Routes</span>
+    </button>
+    <button class="tab-btn" data-tab="strategy">
+      <span class="material-symbols-outlined">route</span>
+      <span class="tab-label">Strategy</span>
+    </button>
+    <button class="tab-btn" data-tab="trees">
+      <span class="material-symbols-outlined">forest</span>
+      <span class="tab-label">Trees</span>
+    </button>
+    <button class="tab-btn" data-tab="maps">
+      <span class="material-symbols-outlined">map</span>
+      <span class="tab-label">Maps</span>
+    </button>
+  </nav>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

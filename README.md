@@ -1,6 +1,19 @@
 # Park City Mountain — Insider's Guide
 
+> **[Live Site →](https://jbl306.github.io/parkcity/)** — Mobile-first web app for on-mountain reference
+
 Notes and recommendations compiled from the 4-part [Insider's Guide to Park City](https://www.youtube.com/watch?v=ggtElWFhwi4) YouTube series.
+
+## Web App
+
+A lightweight, mobile-first web UI for quick on-mountain reference. No framework, no build step — pure HTML/CSS/JS.
+
+- **Dark/Light mode** — auto-switches based on system preference
+- **Search** — find any trail, lift, or route across all tabs
+- **Difficulty filter** — filter by green/blue/black/double-black
+- **5 tabs**: Trails, Routes, Strategy, Trees, Maps
+
+Deploy: Enable GitHub Pages → Settings → Pages → Source: branch `main`, folder `/site`
 
 ## Recommendations
 
