@@ -533,18 +533,13 @@ body {
 }
 
 /* --- Strategy Section --- */
-.strategy-section {
-  margin-bottom: 12px;
+.strategy-route-divider {
+  border-top: 1px solid var(--border);
+  margin: 16px 0 12px;
 }
 
-.strategy-label {
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--text-muted);
-  margin-bottom: 8px;
-  padding-left: 2px;
+.strategy-accordion .accordion-header {
+  opacity: 0.88;
 }
 
 .strategy-item {
@@ -559,7 +554,6 @@ body {
   box-shadow: var(--shadow);
 }
 
-.strategy-item.step { border-left: 3px solid var(--accent); }
 .strategy-item.tip { border-left: 3px solid var(--green); }
 
 /* --- Tree Run Card --- */

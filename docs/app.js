@@ -82,14 +82,22 @@
   // ============================================================
 
   function renderRoutes() {
-    renderRouteSide('routes-mv', DATA.routes.mountainVillage);
-    renderRouteSide('routes-canyons', DATA.routes.canyons);
+    renderRouteSide('routes-mv', DATA.routes.mountainVillage, DATA.strategy.mountainVillage);
+    renderRouteSide('routes-canyons', DATA.routes.canyons, DATA.strategy.canyons);
   }
 
-  function renderRouteSide(containerId, routes) {
+  function renderRouteSide(containerId, routes, strategy) {
     const container = document.getElementById(containerId);
     let html = '';
 
+    // Strategy sections rendered as collapsible accordions above routes
+    html += renderStrategyAccordion('☀️ Morning Start Tips', strategy.morningStart, 'tip');
+    html += renderStrategyAccordion('⚠️ Expert Terrain Warnings', strategy.warnings, 'warning');
+    html += renderStrategyAccordion('💡 Key Routing Tips', strategy.routingTips, 'tip');
+
+    html += '<div class="strategy-route-divider"></div>';
+
+    // Route accordions
     routes.forEach(route => {
       const stepsHtml = route.steps.map((s, i) => {
         let iconClass = '';
@@ -130,57 +138,35 @@
     container.innerHTML = html;
   }
 
-  // ============================================================
-  // RENDER: Strategy Tab
-  // ============================================================
-
-  function renderStrategy() {
-    renderStrategySide('strategy-mv', DATA.strategy.mountainVillage);
-    renderStrategySide('strategy-canyons', DATA.strategy.canyons);
-  }
-
-  function renderStrategySide(containerId, data) {
-    const container = document.getElementById(containerId);
-    let html = '';
-
-    // Morning Start
-    html += `<div class="strategy-section">
-      <div class="strategy-label">☀️ Morning Start Strategy</div>`;
-    data.morningStart.forEach(item => {
-      html += `<div class="strategy-item tip">${escHtml(item.text)}</div>`;
+  function renderStrategyAccordion(title, items, type) {
+    if (!items || !items.length) return '';
+    let innerHtml = '';
+    items.forEach(item => {
+      const text = item.text || '';
+      if (type === 'warning') {
+        innerHtml += `<div class="warning-block">${escHtml(text)}</div>`;
+      } else {
+        innerHtml += `<div class="strategy-item tip">${escHtml(text)}`;
+        if (item.warning) innerHtml += `<div class="warning-callout">${escHtml(item.warning)}</div>`;
+        innerHtml += '</div>';
+      }
     });
-    html += '</div>';
 
-    // Recommended Flow
-    html += `<div class="strategy-section">
-      <div class="strategy-label">🗺️ Recommended Flow</div>`;
-    data.recommendedFlow.forEach((item, i) => {
-      html += `<div class="strategy-item step"><strong>Step ${i + 1}:</strong> ${escHtml(item.text)}</div>`;
-    });
-    html += '</div>';
+    const searchText = items.map(i => i.text || '').join(' ').toLowerCase();
 
-    // Warnings
-    if (data.warnings && data.warnings.length) {
-      html += `<div class="strategy-section">
-        <div class="strategy-label">⚠️ Expert Terrain Warnings</div>`;
-      data.warnings.forEach(w => {
-        html += `<div class="warning-block">${escHtml(w.text)}</div>`;
-      });
-      html += '</div>';
-    }
-
-    // Routing Tips
-    html += `<div class="strategy-section">
-      <div class="strategy-label">💡 Key Routing Tips</div>`;
-    data.routingTips.forEach(item => {
-      let tipHtml = `<div class="strategy-item tip">${escHtml(item.text)}`;
-      if (item.warning) tipHtml += `<div class="warning-callout">${escHtml(item.warning)}</div>`;
-      tipHtml += '</div>';
-      html += tipHtml;
-    });
-    html += '</div>';
-
-    container.innerHTML = html;
+    return `
+      <div class="accordion strategy-accordion" data-searchable="${escHtml(searchText)}">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          <div class="accordion-title">${title}</div>
+          <span class="accordion-badge" style="background:var(--accent-light);color:var(--accent)">${items.length}</span>
+          <span class="material-symbols-outlined accordion-chevron">expand_more</span>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-inner">
+            ${innerHtml}
+          </div>
+        </div>
+      </div>`;
   }
 
   // ============================================================
@@ -958,7 +944,6 @@
 
   renderTrails();
   renderRoutes();
-  renderStrategy();
   renderTrees();
   renderMaps();
   fetchLiveConditions();

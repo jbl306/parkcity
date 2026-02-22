@@ -556,12 +556,6 @@ const DATA = {
         { text: "On busier days, take a bus into town and ride Town Lift up — often bypasses longer base area lines.", type: "tip" },
         { text: "Payday and Crescent are the main out-of-base lifts; they get similar lines, so default to Payday unless you want the canyon side quickly (then use Crescent).", type: "tip" }
       ],
-      recommendedFlow: [
-        { text: "Payday → Bonanza Access (short & flat) → Bonanza lift", type: "step" },
-        { text: "Bonanza → fork: RIGHT to Silverlode area (avoid!) — take Carbide Cut to Motherlode Express instead (fraction of the lines). LEFT to Pioneer pod — most underrated area, quietest blue cruisers, best lunch at Mid-Mountain Lodge.", type: "step" },
-        { text: "From Pioneer → McConkey's six-pack for panoramic views and advanced terrain", type: "step" },
-        { text: "From McConkey's → hike to Jupiter Peak (5-15 min) or take Jupiter Access trail to Jupiter Lift for best expert terrain on PC side", type: "step" }
-      ],
       warnings: [
         { text: "McConkey's Bowl, Molly's, Black Forest — Expert only. Insanely steep; huge moguls and tight trees with hidden drops." },
         { text: "Jupiter Lift — No easy routes down. Do not ride unless comfortable on black/double black terrain." },
@@ -581,13 +575,6 @@ const DATA = {
         { text: "Orange Bubble Express (OBX) is the best base lift choice — lines move faster and are ~5 min shorter than Red Pine Gondola.", type: "tip" },
         { text: "Sunrise Gondola (new, tucked away) will likely have the shortest lines of all three.", type: "tip" },
         { text: "All three base lifts empty out by ~11:30, so don't stress if you're a late starter.", type: "tip" }
-      ],
-      recommendedFlow: [
-        { text: "OBX → top out at Lookout Cabin area. Lap Lookout Ridge (favorite groomer in all of PC) or head to Super Condor. Take Arrowhead for fastest access.", type: "step" },
-        { text: "Super Condor → lap Apex Ridge (one of longest blues anywhere) or Kanes Gully / Devil's Friend for expert moguls. Don't lap Condor in spurts — exits are painfully flat.", type: "step" },
-        { text: "To reach southern terrain: Tombstone is the gateway but a major choke point. Alt route: Timberline → Iron Mountain to bypass Tombstone lines.", type: "step" },
-        { text: "From Tombstone → Peak 5 → Dreamscape area. Daybreak is most underrated lift. Dreamscape has best blue mogul runs (especially Bliss, which is hidden).", type: "step" },
-        { text: "For experts: 9990 for 94 Turns (must-hit VW-sized moguls) and Peak 5 for The Abyss (gnarliest terrain at PC).", type: "step" }
       ],
       warnings: [
         { text: "Kanes Gully — Longest natural gully at PC. Steep, narrows in spots, only one emergency exit halfway. Sketchy on hardpack." },
