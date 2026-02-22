@@ -1,0 +1,2487 @@
+{
+  "scraped_at": "2026-02-22T20:01:22.642567+00:00",
+  "terrain": {
+    "IsSuccessful": true,
+    "Lifts": [
+      {
+        "Name": "Crescent Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Eagle Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 3:45 PM"
+      },
+      {
+        "Name": "First Time Lift",
+        "Status": "Open",
+        "Hours": "8:45 AM - 4:00 PM"
+      },
+      {
+        "Name": "PayDay Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "3 Kings Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Town Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Mine Cart",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Mule Train",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Bonanza Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "McConkey's Lift",
+        "Status": "Closed",
+        "Hours": "9:00 AM - 3:30 PM"
+      },
+      {
+        "Name": "Pioneer Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 3:30 PM"
+      },
+      {
+        "Name": "Motherlode Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Silverlode Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Thaynes Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "King Con Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Eaglet Lift",
+        "Status": "Closed",
+        "Hours": "9:00 AM - 3:45 PM"
+      },
+      {
+        "Name": "Silver Star Lift",
+        "Status": "Open",
+        "Hours": "9:00 AM - 3:45 PM"
+      },
+      {
+        "Name": "Jupiter Lift",
+        "Status": "Open",
+        "Hours": "9:15 AM - 3:30 PM"
+      },
+      {
+        "Name": "Quicksilver Canyons Side",
+        "Status": "Open",
+        "Hours": "9:15 AM - 3:30 PM"
+      },
+      {
+        "Name": "Quicksilver MV Side",
+        "Status": "Open",
+        "Hours": "9:15 AM - 3:30 PM"
+      },
+      {
+        "Name": "Iron Mtn. Express",
+        "Status": "Open",
+        "Hours": "9:00 AM - 3:30 PM"
+      },
+      {
+        "Name": "Flat Iron",
+        "Status": "Open",
+        "Hours": "9:15 AM - 3:30 PM"
+      },
+      {
+        "Name": "Timberline",
+        "Status": "Open",
+        "Hours": "9:00 AM - 3:20 PM"
+      },
+      {
+        "Name": "Silver Lining",
+        "Status": "Closed",
+        "Hours": "9:30 AM - 3:30 PM"
+      },
+      {
+        "Name": "Day Break",
+        "Status": "Open",
+        "Hours": "9:30 AM - 3:30 PM"
+      },
+      {
+        "Name": "Dreamcatcher",
+        "Status": "Open",
+        "Hours": "9:30 AM - 3:30 PM"
+      },
+      {
+        "Name": "Dreamscape",
+        "Status": "Open",
+        "Hours": "9:30 AM - 3:30 PM"
+      },
+      {
+        "Name": "9990 Express",
+        "Status": "Open",
+        "Hours": "9:15 AM - 3:30 PM"
+      },
+      {
+        "Name": "Tombstone Express",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Over and Out",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Peak 5",
+        "Status": "Open",
+        "Hours": "9:15 AM - 3:30 PM"
+      },
+      {
+        "Name": "Cabriolet",
+        "Status": "Open",
+        "Hours": "7:00 AM - 6:00 PM"
+      },
+      {
+        "Name": "Frostwood Gondola",
+        "Status": "Open",
+        "Hours": "8:00 AM - 5:30 PM"
+      },
+      {
+        "Name": "Red Pine Gondola",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Sunrise Gondola",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Orange Bubble Express",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Saddleback Express",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Sun Peak Express",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "High Meadow",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Shortcut",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Rip Cord",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Sweet Pea",
+        "Status": "Open",
+        "Hours": "9:00 AM - 4:00 PM"
+      },
+      {
+        "Name": "Super Condor Express",
+        "Status": "Closed",
+        "Hours": "9:00 AM - 3:30 PM"
+      }
+    ],
+    "GroomingAreas": [
+      {
+        "Name": "Payday/Town/Crescent",
+        "Trails": [
+          {
+            "Name": "1/4 Load",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "3/4 Load",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Blanche",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Bonanza Access",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Drift",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "First Time Run",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Homerun (Lower)",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Stope",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Turtle Trail",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Upper First Time",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "1/2 Load",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Alloy Alley",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Creole",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Dividend",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Heckler",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "King's Crown",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Ladies' Slalom",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Lower Silver Skis",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "PayDay Run",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Quit 'N Time",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "RDR",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Silver Hollow",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Town Run",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Treasure Hollow",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Crescent",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Erika's Gold",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Men's Slalom",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Nail Driver",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Shaft",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Silver King",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Silver Skis",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Waterfall",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Widowmaker",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Willy's Run",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "3 Kings",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Half Pipe",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Mini Pipe",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Pick 'N Shovel",
+            "Status": "Closed",
+            "IsGroomed": false
+          }
+        ]
+      },
+      {
+        "Name": "Bonanza/McConkey's/Pioneer",
+        "Trails": [
+          {
+            "Name": "Bonanza",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Flat Iron",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Homerun (Full)",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Mid-Mountain",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Mid-Mountain Cutoff",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Shortline",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Woodside",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Blaster",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Comstock",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Georgeanna",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Hawkeye",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Jonesy's",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Lucky Boy",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Mid-Mountain Meadows",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Muckers",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Powder Monkey",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Red Fox",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Silver Queen",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "10th Mountain",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Belmont",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Buckeye",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Pioneer",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Sampson",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Sundog",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Tycoon",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Berg's Bowl",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Black Forest",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Blueslip Bowl",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "McConkey's Bowl",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Molly's",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "O-Zone",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "P-Zone",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Pinyon Ridge",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Pioneer Ridge",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Puma Bowl",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "The Chutes",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Little Kings",
+            "Status": "Open",
+            "IsGroomed": true
+          }
+        ]
+      },
+      {
+        "Name": "Silverlode/Thaynes/Motherlode",
+        "Trails": [
+          {
+            "Name": "Claimjumper",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Assessment",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Carbide Cut",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Detonator",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Hidden Splendor",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Jupiter Access",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Keystone",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Mel's Alley",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Parley's Park",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Powder Keg",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Short Fuse",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Single Jack",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Sunnyside",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "TNT",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Thaynes Canyon",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Zeke's Road",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Double Jack",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Dynamite",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Fool's Gold",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Glory Hole",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Lost Prospector",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Mikey's",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Newport",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Prospector",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Thaynes",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "The Hoist",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Motherlode Meadows",
+            "Status": "Open",
+            "IsGroomed": false
+          }
+        ]
+      },
+      {
+        "Name": "King Con",
+        "Trails": [
+          {
+            "Name": "Broadway",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "King Con Access",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Road to Thaynes Canyon",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Rosebud",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Chance",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Courchevel",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Eureka",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Gotcha Cut-Off",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "High Card",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Hot Spot",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "King Con Ridge",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "King Con Run",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Liberty",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Monitor",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Shamus",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Silver Star",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Sitka",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Spiro",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Temptation",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "C.B.'s Run",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Climax",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Combustion",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Commitment",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Ligety Split",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Picabo's",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Seldom Seen",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Vista",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Pick Axe",
+            "Status": "Closed",
+            "IsGroomed": false
+          }
+        ]
+      },
+      {
+        "Name": "Jupiter",
+        "Trails": [
+          {
+            "Name": "1st Bowl",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "6 Bells",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Constellation",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Dead Tree",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Fortune Teller",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Half Moon",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Homelite",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Indicator",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Limelite",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Lite's Out",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Main Bowl",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "New Moon",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Pinecone Bowl",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Pinecone Ridge",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Portuguese Gap",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Quarter Moon",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Rhino",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Sam's Knob",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Scott's Bowl",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Shadow Ridge",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Silver Cliff",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Two Goons",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "War Zone",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "West Face",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "West Scott's Bowl",
+            "Status": "Open",
+            "IsGroomed": false
+          }
+        ]
+      },
+      {
+        "Name": "Iron Mountain",
+        "Trails": [
+          {
+            "Name": "Blaise's Way",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Cascade",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Chrome Alley",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Copperhead",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Double Nickel",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Golden Spruce",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Lead Foot",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Mercury",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Mimi's Way",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Silver Streak",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Snowonder",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "The Highway",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Tin Cup",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Upper White Pine",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "White Pine",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Cobalt Woods",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Goldfinger",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Heavy Metal",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Iron Man",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Platinum Woods",
+            "Status": "Closed",
+            "IsGroomed": false
+          }
+        ]
+      },
+      {
+        "Name": "Day Break / Dreamscape / Dreamcatcher",
+        "Trails": [
+          {
+            "Name": "Alpenglow",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Apparition",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Backstreet",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Bliss",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Bugle Ridge Bypass",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Dawn",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Day Dream",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "D\u00e9j\u00e0 Vu",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Elk Dance",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Lazy Day",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "McDonalds Meadow",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Mirage",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "OO2",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Oops",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Panorama",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Reaper",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Sandman",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Snow Meadow",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Trance",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Twilight",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Whitewater",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Winter Way",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Boogeyman",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Bugle Ridge",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Chimera",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Fools Paradise",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Illusion",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Phantasm",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Pipe Dream",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Shadow Lands",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Sleeper",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Specter",
+            "Status": "Open",
+            "IsGroomed": false
+          }
+        ]
+      },
+      {
+        "Name": "Peak 5/9990/Tombstone",
+        "Trails": [
+          {
+            "Name": "Another World",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Chicane",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Encore",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Escape",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Lower Crowning Glory",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Lower Harmony",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Middle Crowning Glory",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Peace",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Power Alley",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Red Pine Road",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Rhapsody",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Ripsaw",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Royal",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Sanctuary",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Serenity",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Showcase",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Silver Spur",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "South Fork",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Tombstone Alley",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Upper Crowning Glory",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Upper Harmony",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Cloud 9",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Diamond Ridge",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Escapade Woods",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Lightning",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Mystic Pines",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Paradise",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Paradise Bowl",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Paradise Chutes",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Pinball Alley",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Sidewinder",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Solace",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "The Drop",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Thunder",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Tranquility",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "94 Turns",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Aspen Grove",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Charlie Brown",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Deschutes",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Dutch Hollow",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "End Zone",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Fright Gully",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Grande",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Lower East Face",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Magic Line",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Moraine",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Red Pine Chutes",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Talus Garden",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "The Abyss",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Upper East Face",
+            "Status": "Open",
+            "IsGroomed": false
+          }
+        ]
+      },
+      {
+        "Name": "OBX/Saddleback/Sun Peak",
+        "Trails": [
+          {
+            "Name": "Alley Cat",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Hidden Bear",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Mellow Moose",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Sweet Pea",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Upper Mainline",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Arrowhead",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Badger's Bypass",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Boomer",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Broken Arrow",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Doc's Run",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Echo",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Eclipse",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Flume",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Flying Salmon",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Hurricane Alley",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Kokopelli",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Lookout Ridge",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Mainline",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Outlaw",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Painted Horse",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Pine Draw",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Raptor Way",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Retreat",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Road D.O.",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Sixes",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Snow Dancer",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Spider Monkey",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Sunrise",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "The Drain",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Thunder Rd.",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Tunnel of Fun",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Upper Lookout Ridge",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Willow Draw",
+            "Status": "Open",
+            "IsGroomed": true
+          },
+          {
+            "Name": "Badlands",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Black Hole",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Diablo",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Eagle",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Ecstasy",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Elk Ridge",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "G-Force",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Gallery",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Golden Glades",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Grizzly",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Lynx",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Massacre",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Mine Shaft",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "STH",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Shadows",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Silver Horse",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Silverado",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Silverado Bowl",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Super Fury",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "The Aspens",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "The Pines",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Tower",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Tree Time",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Tube",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Wapiti",
+            "Status": "Open",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Transitions Terrain Park",
+            "Status": "Open",
+            "IsGroomed": true
+          }
+        ]
+      },
+      {
+        "Name": "Condor",
+        "Trails": [
+          {
+            "Name": "Alley",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Apex Ridge",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "EZ Street",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Lower Boa",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Spur",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Upper Apex Ridge",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Upper Boa",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Aplande",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Canis Lupus",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Devil's Friend",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Kestrel",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Rendezvous Bowl",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Rendezvous Ridge",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Renegade",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Snow Draw",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Thrasher",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Twister",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "A-Chute",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "After Shock",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Condor Woods",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Five Trees",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Funnel Cloud",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "High Peak",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Junipers",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Lone Pine",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Murdock Bowl",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "One Hundred Turns",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Renny's Ridge",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Saddle Chutes",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Sticks & Stones",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Western Boundary",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Whippets Chutes",
+            "Status": "Closed",
+            "IsGroomed": false
+          },
+          {
+            "Name": "Yard Sale",
+            "Status": "Closed",
+            "IsGroomed": false
+          }
+        ]
+      }
+    ],
+    "source": "dom"
+  },
+  "weather": {
+    "Id": "14",
+    "Description": "",
+    "ReportDateTime": "02/22/2026 05:45:00",
+    "ReportDateTimeAsDate": "2026-02-22T05:45:00-07:00",
+    "SnowConditions": "Packed Powder",
+    "MarketingText": null,
+    "AllOpenMessage": "",
+    "DisplayReportDateTime": false,
+    "DisplayAllOpen": false,
+    "Lifts": {
+      "Open": "39",
+      "Total": "43",
+      "Text": null,
+      "DisplayOpen": true,
+      "DisplayTotal": true
+    },
+    "Acres": {
+      "Open": "0",
+      "Total": "0",
+      "Text": "",
+      "DisplayOpen": false,
+      "DisplayTotal": false
+    },
+    "Runs": {
+      "Open": "272",
+      "Total": "349",
+      "Text": null,
+      "DisplayOpen": true,
+      "DisplayTotal": true
+    },
+    "TerrainPercentage": {
+      "Open": "77",
+      "Total": "100",
+      "Text": null,
+      "DisplayOpen": true,
+      "DisplayTotal": true
+    },
+    "NewSnowReadings": {
+      "Overnight": {
+        "Inches": "0",
+        "Centimeters": "0",
+        "Display": false
+      },
+      "TwentyFourHours": {
+        "Inches": "0",
+        "Centimeters": "0",
+        "Display": false
+      },
+      "FortyEightHours": {
+        "Inches": "1",
+        "Centimeters": "2",
+        "Display": false
+      },
+      "SevenDays": {
+        "Inches": "33",
+        "Centimeters": "83",
+        "Display": false
+      },
+      "OvernightSummit": {
+        "Inches": "0",
+        "Centimeters": "0",
+        "Display": false
+      },
+      "TwentyFourHoursSummit": {
+        "Inches": "0",
+        "Centimeters": "0",
+        "Display": false
+      },
+      "FortyEightHoursSummit": {
+        "Inches": "0",
+        "Centimeters": "0",
+        "Display": false
+      },
+      "SevenDaysSummit": {
+        "Inches": "0",
+        "Centimeters": "0",
+        "Display": false
+      }
+    },
+    "BaseSnowReadings": {
+      "Summit": {
+        "Inches": "0",
+        "Centimeters": "0",
+        "Display": false
+      },
+      "MidMountain": {
+        "Inches": "62",
+        "Centimeters": "157",
+        "Display": false
+      },
+      "BaseArea": {
+        "Inches": "62",
+        "Centimeters": "157",
+        "Display": false
+      }
+    },
+    "SeasonSnowfall": {
+      "Inches": "127",
+      "Centimeters": "322",
+      "Display": false
+    },
+    "SeasonSnowfallSummit": {
+      "Inches": "0",
+      "Centimeters": "0",
+      "Display": false
+    },
+    "WeatherCommentary": {
+      "TodaysReport": "<p>Groomer picks of the day are Quit 'N Time \u00a0&amp; Prospector at the Mountain Village and Pipe Dream &amp; Mercury at the Canyons Village.\u00a0<br>\u00a0<br>\u00a0<br>\u00a0</p>",
+      "WeatherReport": "<p>Mostly sunny, with a high near 33. Wind chill values as low as 7. South southwest wind 7 to 11 mph.\u00a0<br>\u00a0</p>"
+    }
+  },
+  "weather_header": {
+    "HeaderSettings": {
+      "EnableCart": true,
+      "SignInTitleText": "Sign In",
+      "ShowSignIn": true,
+      "WeatherTitleForMobileNavigation": "Weather and Conditions",
+      "ShowWeatherWidget": true,
+      "DefaultWeatherLocation": {
+        "Latitude": 40.65108,
+        "Longitude": -111.50829,
+        "LocationDisplayName": "Mountain Village Base",
+        "WeatherSponsorImage": null,
+        "WeatherSponsorLink": null,
+        "WeatherSponsorCopy": "",
+        "ElevationText": "",
+        "Elevation": "6964",
+        "Id": "ea450647-c032-4554-8617-dd53b648ef88",
+        "Name": "Park City Base",
+        "SortOrder": 0,
+        "ConvertedElevation": 6964
+      },
+      "DailyForecastTitle": "TODAY'S FORECAST",
+      "ShowWeatherIconMenu": true,
+      "SnowReportTitle": "SNOW AND WEATHER REPORT",
+      "ShowSnowReportSection": true,
+      "SnowReportSections": [
+        {
+          "Id": "14441dd9-8284-4132-862a-ece9b02ca2d8",
+          "Name": "24 Hour",
+          "SortOrder": 0
+        },
+        {
+          "Id": "dbf5df38-410d-4b87-8da9-f3a1bb28a3a8",
+          "Name": "Base Depth",
+          "SortOrder": 0
+        }
+      ],
+      "LiftAndTerrainStatusTitle": "LIFT & TERRAIN STATUS",
+      "ShowLiftAndTerrainStatusSection": false,
+      "ShowLiftsOpenSection": false,
+      "ShowLiftsGraph": false,
+      "LoginContent": {
+        "SignInCtaImage": {
+          "Url": "/-/aemasset/image/upload/Global/epic-mountain-rewards/epicpass_icon_darkgray.svg",
+          "Path": "/image/upload/Global/epic-mountain-rewards/epicpass_icon_darkgray.svg",
+          "Type": "image/svg+xml",
+          "OriginalWidthInt": 5,
+          "OriginalHeightInt": 5,
+          "UseWidth": 5,
+          "UseHeight": 5,
+          "HasValue": true,
+          "AssetId": "165442670",
+          "Fit": "",
+          "Upscale": false,
+          "Alt": "EpicPassIconLogInGrey",
+          "Border": "",
+          "Class": "",
+          "Height": 0,
+          "HSpace": 0,
+          "Src": "/-/aemasset/image/upload/Global/epic-mountain-rewards/epicpass_icon_darkgray.svg",
+          "VSpace": 0,
+          "Width": 0,
+          "MediaId": "00000000-0000-0000-0000-000000000000",
+          "Title": "",
+          "Language": null,
+          "MediaExists": false
+        },
+        "SignInCtaText": "<p data-nosnippet>As an Epic Pass holder, you get 20% off food, lodging, lessons, rentals, and more.  See <a href=\"https://www.epicpass.com/benefits/EMR-terms-and-conditions.aspx\">Terms and Conditions</a> for additional information on eligible passes and a list of all participating locations.</p>",
+        "CreateAccountCtaImage": {
+          "Url": "/-/aemasset/image/upload/Global/epic-mountain-rewards/create_account_icon_darkgray.svg",
+          "Path": "/image/upload/Global/epic-mountain-rewards/create_account_icon_darkgray.svg",
+          "Type": "image/svg+xml",
+          "OriginalWidthInt": 5,
+          "OriginalHeightInt": 5,
+          "UseWidth": 5,
+          "UseHeight": 5,
+          "HasValue": true,
+          "AssetId": "702604498",
+          "Fit": "",
+          "Upscale": false,
+          "Alt": "CreateAccountIconGrey",
+          "Border": "",
+          "Class": "",
+          "Height": 0,
+          "HSpace": 0,
+          "Src": "/-/aemasset/image/upload/Global/epic-mountain-rewards/create_account_icon_darkgray.svg",
+          "VSpace": 0,
+          "Width": 0,
+          "MediaId": "00000000-0000-0000-0000-000000000000",
+          "Title": "",
+          "Language": null,
+          "MediaExists": false
+        },
+        "CreateAccountCtaText": "<p data-nosnippet>Access your exclusive Epic Pass holder savings, including 20% off food, lodging, lessons, rentals, and more with Epic Mountain Rewards.  See <a href=\"https://www.epicpass.com/benefits/EMR-terms-and-conditions.aspx\">Terms and Conditions</a> for additional information on eligible passes and a list of all participating locations.</p>",
+        "ContinueAsAGuestText": "You can create an account at the end of checkout to save information for future purchases ",
+        "CreateAnAccountText": "",
+        "Id": "6d6061d7-8dd4-48b3-82d4-50b64019d9c4",
+        "Name": "Global Login",
+        "SortOrder": 100
+      },
+      "EnableMiniCart": false,
+      "EmptyMiniCartCopy": "There are no products in your Cart.",
+      "EmptyMiniCartCta": {
+        "Anchor": "",
+        "Class": "",
+        "Text": "",
+        "Query": "",
+        "Title": "",
+        "Url": "",
+        "Target": "",
+        "TargetId": "00000000-0000-0000-0000-000000000000",
+        "Type": 4,
+        "Style": ""
+      },
+      "MiniCartDonationTooltip": "",
+      "EnableAccountHeaderNotification": true,
+      "ShowSearch": true,
+      "SearchLink": {
+        "Anchor": "",
+        "Class": "",
+        "Text": "Search",
+        "Query": "",
+        "Title": "",
+        "Url": "/search/search-results.aspx",
+        "Target": "",
+        "TargetId": "9f1f5094-cb32-4f73-97e2-52fd5d08fca7",
+        "Type": 4,
+        "Style": ""
+      },
+      "TopSearchesTitle": "Top Searches",
+      "TopSearches": [
+        {
+          "Id": "08970b65-8d6e-4ffa-9271-b28cbcc86c60",
+          "Name": "Jobs",
+          "SortOrder": 0
+        },
+        {
+          "Id": "43dd87cc-f3aa-47a0-9e47-61682de1858f",
+          "Name": "Epic Pass",
+          "SortOrder": 0
+        },
+        {
+          "Id": "d87035bb-6559-4104-a4ae-39adf85f789f",
+          "Name": "Lift Tickets",
+          "SortOrder": 0
+        },
+        {
+          "Id": "c3ea1104-4f0d-4f1e-901b-94df1578f3ec",
+          "Name": "Ski and Ride School",
+          "SortOrder": 0
+        }
+      ],
+      "Id": "fa19aa56-f734-4f7a-b654-395fca225e23",
+      "Name": "Header Settings",
+      "SortOrder": 0
+    },
+    "UnitOfMeasure": 1,
+    "WeatherShortDescription": "Sunny",
+    "CurrentTempStandard": 37.0,
+    "CurrentTempMetric": 3.0,
+    "HighTempStandard": 39.0,
+    "HighTempMetric": 4.0,
+    "LowTempStandard": 14.0,
+    "LowTempMetric": -10.0,
+    "SnowReportSections": [
+      {
+        "Depth": {
+          "Inches": "0",
+          "Centimeters": "0"
+        },
+        "Description": "24 Hour<br/>Snowfall"
+      },
+      {
+        "Depth": {
+          "Inches": "62",
+          "Centimeters": "157"
+        },
+        "Description": "Base<br/>Depth"
+      }
+    ],
+    "TotalLifts": 0,
+    "OpenLifts": 0,
+    "HoursOfOperationTitle": null,
+    "CurrentWorkDay": null,
+    "WeatherIcon": "14",
+    "MountainCamLink": {
+      "Anchor": "",
+      "Class": "",
+      "Text": "Mountain Cams",
+      "Query": "",
+      "Title": "Park City Mountain Cameras",
+      "Url": "/the-mountain/mountain-conditions/mountain-cams.aspx",
+      "Target": "",
+      "TargetId": "c1dc60c4-5346-410d-8890-fd1e261570bf",
+      "Type": 4,
+      "Style": ""
+    },
+    "TerrainStatusLink": null,
+    "WeatherReportLink": {
+      "Anchor": "",
+      "Class": "",
+      "Text": "Snow and Weather Report",
+      "Query": "",
+      "Title": "Snow and Weather Report",
+      "Url": "/the-mountain/mountain-conditions/weather-report.aspx",
+      "Target": "",
+      "TargetId": "f1f88ef3-9485-4a92-ae59-6793bb027aef",
+      "Type": 4,
+      "Style": ""
+    }
+  },
+  "opensnow": {
+    "CurrentTempStandard": 34.0,
+    "CurrentTempMetric": 1.0,
+    "CurrentUpdated": null,
+    "NextUpdated": null,
+    "ForecastData": [
+      {
+        "HighTempStandard": 36.0,
+        "HighTempMetric": 2.0,
+        "LowTempStandard": 13.0,
+        "LowTempMetric": -11.0,
+        "WeatherIconStatus": "11",
+        "WeatherLongDescription": null,
+        "WeatherShortDescription": "Mostly Clear",
+        "Wind": "SSW",
+        "WindSpeed": 7.66,
+        "FreezingLevelMetric": null,
+        "FreezingLevelStandard": null,
+        "SnowFallDayStandard": null,
+        "SnowFallDayMetric": null,
+        "SnowFallNightStandard": null,
+        "SnowFallNightMetric": null,
+        "Date": "2026-02-22T07:00:00Z",
+        "LastCached": "0001-01-01T00:00:00"
+      },
+      {
+        "HighTempStandard": 41.0,
+        "HighTempMetric": 5.0,
+        "LowTempStandard": 29.0,
+        "LowTempMetric": -2.0,
+        "WeatherIconStatus": "12",
+        "WeatherLongDescription": null,
+        "WeatherShortDescription": "Partly Cloudy",
+        "Wind": "SW",
+        "WindSpeed": 8.66,
+        "FreezingLevelMetric": null,
+        "FreezingLevelStandard": null,
+        "SnowFallDayStandard": null,
+        "SnowFallDayMetric": null,
+        "SnowFallNightStandard": null,
+        "SnowFallNightMetric": null,
+        "Date": "2026-02-23T07:00:00Z",
+        "LastCached": "0001-01-01T00:00:00"
+      }
+    ],
+    "HourlyForecastData": [
+      {
+        "TempStandard": 34.58,
+        "TempMetric": 1.0,
+        "WeatherIconStatus": "14",
+        "WeatherShortDescription": "Sunny",
+        "Wind": "SSW",
+        "WindSpeed": 7.35,
+        "WindGustSpeed": 12.02,
+        "WindDirection": 209,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-22T19:00:00Z"
+      },
+      {
+        "TempStandard": 35.39,
+        "TempMetric": 1.0,
+        "WeatherIconStatus": "11",
+        "WeatherShortDescription": "Mostly Sunny",
+        "Wind": "SSW",
+        "WindSpeed": 6.16,
+        "WindGustSpeed": 9.35,
+        "WindDirection": 212,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-22T20:00:00Z"
+      },
+      {
+        "TempStandard": 36.07,
+        "TempMetric": 2.0,
+        "WeatherIconStatus": "11",
+        "WeatherShortDescription": "Mostly Sunny",
+        "Wind": "SSW",
+        "WindSpeed": 5.55,
+        "WindGustSpeed": 8.72,
+        "WindDirection": 209,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-22T21:00:00Z"
+      },
+      {
+        "TempStandard": 36.53,
+        "TempMetric": 2.0,
+        "WeatherIconStatus": "11",
+        "WeatherShortDescription": "Mostly Sunny",
+        "Wind": "SSW",
+        "WindSpeed": 5.52,
+        "WindGustSpeed": 10.04,
+        "WindDirection": 211,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-22T22:00:00Z"
+      },
+      {
+        "TempStandard": 36.59,
+        "TempMetric": 2.0,
+        "WeatherIconStatus": "11",
+        "WeatherShortDescription": "Mostly Sunny",
+        "Wind": "SSW",
+        "WindSpeed": 5.74,
+        "WindGustSpeed": 10.32,
+        "WindDirection": 209,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-22T23:00:00Z"
+      },
+      {
+        "TempStandard": 35.92,
+        "TempMetric": 2.0,
+        "WeatherIconStatus": "12",
+        "WeatherShortDescription": "Partly Cloudy",
+        "Wind": "SSW",
+        "WindSpeed": 6.55,
+        "WindGustSpeed": 11.15,
+        "WindDirection": 208,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-23T00:00:00Z"
+      }
+    ],
+    "HighTempStandard": 36.0,
+    "HighTempMetric": 2.0,
+    "LowTempStandard": 13.0,
+    "LowTempMetric": -11.0,
+    "WeatherIconStatus": "14",
+    "WeatherLongDescription": null,
+    "WeatherShortDescription": "Sunny",
+    "Wind": "SSW",
+    "WindSpeed": 7.35,
+    "FreezingLevelMetric": null,
+    "FreezingLevelStandard": null,
+    "SnowFallDayStandard": null,
+    "SnowFallDayMetric": null,
+    "SnowFallNightStandard": null,
+    "SnowFallNightMetric": null,
+    "Date": "2026-02-22T19:00:00Z",
+    "LastCached": "0001-01-01T00:00:00"
+  }
+}

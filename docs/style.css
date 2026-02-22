@@ -858,6 +858,352 @@ body {
 
 .no-results.visible { display: block; }
 
+/* --- Live Status Banner & Dots --- */
+
+.live-banner {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  background: var(--success-bg);
+  border: 1px solid var(--success-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  color: var(--success-text);
+  flex-wrap: wrap;
+  line-height: 1.4;
+}
+.banner-icon {
+  font-size: 0.95rem;
+  color: var(--green);
+}
+.banner-stat {
+  white-space: nowrap;
+}
+.banner-stat strong {
+  font-weight: 700;
+}
+.banner-sep {
+  color: var(--text-muted);
+  margin: 0 1px;
+}
+.banner-time {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
+/* Lift status dot — prepended to accordion titles, tree card headers, map nodes */
+.live-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.live-dot.open {
+  background: var(--green);
+  box-shadow: 0 0 4px var(--green);
+}
+.live-dot.closed {
+  background: var(--dblack);
+  opacity: 0.7;
+}
+
+/* When live dot is inside accordion title, shift the emoji */
+.accordion-title .live-dot {
+  margin-right: 4px;
+  position: relative;
+  top: -1px;
+}
+
+/* When live dot is inside tree card header */
+.tree-card-header .live-dot {
+  margin-right: 6px;
+}
+
+/* When live dot is inside map flow node */
+.flow-node-name .live-dot {
+  margin-right: 4px;
+}
+
+/* Trail open/closed badge — inline with trail name */
+.trail-status {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 1px 6px;
+  border-radius: var(--radius-pill);
+  margin-left: 6px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+.trail-status.open {
+  background: var(--green-bg);
+  color: var(--green-text);
+}
+.trail-status.closed {
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+/* --- Conditions Tab --- */
+
+/* Loading & empty states */
+.conditions-loading,
+.conditions-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: var(--text-muted);
+  gap: 0.5rem;
+}
+.conditions-loading .material-symbols-outlined,
+.conditions-empty .material-symbols-outlined {
+  font-size: 2.5rem;
+  color: var(--accent);
+}
+.conditions-sub {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.spin { animation: spin 1.2s linear infinite; }
+
+/* Updated timestamp */
+.conditions-updated {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  padding: 4px 0 8px;
+}
+
+/* Section & label */
+.conditions-section {
+  margin-bottom: 16px;
+}
+.conditions-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  padding-left: 2px;
+}
+
+/* Stat card grid */
+.conditions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 8px;
+}
+.cond-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 8px;
+  box-shadow: var(--shadow);
+  gap: 4px;
+  text-align: center;
+}
+.cond-icon {
+  font-size: 1.4rem;
+  color: var(--accent);
+}
+.cond-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+}
+.cond-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+/* Forecast list (daily) */
+.forecast-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 8px;
+}
+.forecast-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 6px;
+  box-shadow: var(--shadow);
+  gap: 2px;
+  text-align: center;
+}
+.forecast-day-name {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.forecast-icon {
+  font-size: 1.5rem;
+  color: var(--accent);
+  margin: 2px 0;
+}
+.forecast-desc {
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+  line-height: 1.3;
+  min-height: 1.6em;
+}
+.forecast-temps {
+  display: flex;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.temp-hi { color: var(--text); }
+.temp-lo { color: var(--text-muted); }
+.forecast-snow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-top: 2px;
+}
+
+/* Hourly forecast scroll */
+.hourly-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 -4px;
+  padding: 0 4px 4px;
+}
+.hourly-list {
+  display: flex;
+  gap: 6px;
+  min-width: max-content;
+}
+.hourly-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  box-shadow: var(--shadow);
+  gap: 2px;
+  min-width: 60px;
+}
+.hourly-time {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.hourly-icon {
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+.hourly-temp {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.hourly-wind {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}
+.hourly-wind small {
+  font-size: 0.55rem;
+  margin-left: 1px;
+}
+
+/* Individual lift status */
+.lift-status-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  margin-bottom: 4px;
+  box-shadow: var(--shadow);
+}
+.lift-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.lift-dot.open { background: var(--green); }
+.lift-dot.closed { background: var(--dblack); }
+.lift-status-name {
+  flex: 1;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.lift-status-badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+}
+.lift-status-badge.open {
+  background: var(--green-bg);
+  color: var(--green-text);
+}
+.lift-status-badge.closed {
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+/* Official report links */
+.conditions-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow);
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  transition: background 0.15s;
+}
+.conditions-link:hover {
+  background: var(--bg-card-hover);
+}
+.conditions-link .material-symbols-outlined {
+  font-size: 1rem;
+}
+
 /* --- Scrollbar --- */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
