@@ -13,7 +13,7 @@ A lightweight, mobile-first web UI for quick on-mountain reference. No framework
 - **Difficulty filter** — filter by green/blue/black/double-black
 - **5 tabs**: Trails, Routes, Strategy, Trees, Maps
 
-Deploy: Enable GitHub Pages → Settings → Pages → Source: branch `main`, folder `/site`
+Deploy: Enable GitHub Pages → Settings → Pages → Source: branch `main`, folder `/docs`
 
 ## Recommendations
 
