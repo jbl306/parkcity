@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T21:46:10.490394+00:00",
+  "scraped_at": "2026-02-22T21:58:38.567012+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -155,7 +155,7 @@
       },
       {
         "Name": "Peak 5",
-        "Status": "Closed",
+        "Status": "Open",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
