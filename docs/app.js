@@ -365,6 +365,9 @@
         mainContent.classList.remove('has-filters');
       }
 
+      // Lazy-load conditions data
+      if (tab === 'conditions') loadConditions();
+
       // Re-apply search when switching tabs
       applyFilters();
     });
@@ -530,6 +533,238 @@
     const tabEl = document.getElementById(tabId);
     const activeBtn = $('.side-btn.active', tabEl);
     return activeBtn ? activeBtn.dataset.side : 'mv';
+  }
+
+  // ============================================================
+  // RENDER: Conditions Tab (Live data from scraper)
+  // ============================================================
+
+  let conditionsLoaded = false;
+
+  function loadConditions() {
+    if (conditionsLoaded) return;
+    conditionsLoaded = true;
+
+    fetch('conditions.json')
+      .then(r => {
+        if (!r.ok) throw new Error('No conditions data yet');
+        return r.json();
+      })
+      .then(data => renderConditions(data))
+      .catch(() => {
+        document.getElementById('conditions-content').innerHTML = `
+          <div class="conditions-empty">
+            <span class="material-symbols-outlined">cloud_off</span>
+            <p>Live conditions not available yet.</p>
+            <p class="conditions-sub">Data updates every 10 minutes during resort hours.</p>
+          </div>`;
+      });
+  }
+
+  function renderConditions(data) {
+    const container = document.getElementById('conditions-content');
+    let html = '';
+
+    const scraped = data.scraped_at ? new Date(data.scraped_at) : null;
+    const timeAgo = scraped ? formatTimeAgo(scraped) : 'unknown';
+
+    // --- Updated timestamp ---
+    html += `<div class="conditions-updated">
+      <span class="material-symbols-outlined" style="font-size:0.85rem">schedule</span>
+      Updated ${escHtml(timeAgo)}
+    </div>`;
+
+    // --- Weather summary from weather API ---
+    const w = data.weather;
+    if (w) {
+      html += '<div class="conditions-section">';
+      html += '<div class="conditions-label">Snow Report</div>';
+      html += '<div class="conditions-grid">';
+
+      if (w.SnowConditions) {
+        html += condCard('ac_unit', 'Conditions', w.SnowConditions);
+      }
+      if (w.BaseSnowReadings?.MidMountain?.Inches && w.BaseSnowReadings.MidMountain.Inches !== '0') {
+        html += condCard('height', 'Base Depth', w.BaseSnowReadings.MidMountain.Inches + '"');
+      }
+      if (w.NewSnowReadings?.FortyEightHours?.Inches && w.NewSnowReadings.FortyEightHours.Inches !== '0') {
+        html += condCard('weather_snowy', '48hr Snow', w.NewSnowReadings.FortyEightHours.Inches + '"');
+      }
+      if (w.NewSnowReadings?.SevenDays?.Inches && w.NewSnowReadings.SevenDays.Inches !== '0') {
+        html += condCard('calendar_month', '7-Day Snow', w.NewSnowReadings.SevenDays.Inches + '"');
+      }
+      if (w.SeasonSnowfall?.Inches) {
+        html += condCard('landscape', 'Season Total', w.SeasonSnowfall.Inches + '"');
+      }
+
+      html += '</div></div>';
+    }
+
+    // --- Lift & Trail status from weather API ---
+    if (w) {
+      html += '<div class="conditions-section">';
+      html += '<div class="conditions-label">Lift & Terrain Status</div>';
+      html += '<div class="conditions-grid">';
+
+      if (w.Lifts?.Open) {
+        html += condCard('airline_seat_recline_extra', 'Lifts Open',
+          `${w.Lifts.Open} / ${w.Lifts.Total}`);
+      }
+      if (w.Runs?.Open) {
+        html += condCard('downhill_skiing', 'Runs Open',
+          `${w.Runs.Open} / ${w.Runs.Total}`);
+      }
+      if (w.TerrainPercentage?.Open) {
+        html += condCard('percent', 'Terrain Open', w.TerrainPercentage.Open + '%');
+      }
+
+      html += '</div></div>';
+    }
+
+    // --- OpenSnow forecast ---
+    const os = data.opensnow;
+    if (os) {
+      // Current temp
+      if (os.CurrentTempStandard != null) {
+        html += '<div class="conditions-section">';
+        html += '<div class="conditions-label">Current Weather</div>';
+        html += '<div class="conditions-grid">';
+        html += condCard('thermostat', 'Temperature', Math.round(os.CurrentTempStandard) + '°F');
+
+        // Hourly wind from first hourly entry
+        const h0 = os.HourlyForecastData?.[0];
+        if (h0) {
+          html += condCard('air', 'Wind', `${Math.round(h0.WindSpeed)} mph ${h0.Wind}`);
+          if (h0.WindGustSpeed) {
+            html += condCard('storm', 'Gusts', Math.round(h0.WindGustSpeed) + ' mph');
+          }
+        }
+        html += '</div></div>';
+      }
+
+      // Daily forecast
+      if (os.ForecastData?.length) {
+        html += '<div class="conditions-section">';
+        html += '<div class="conditions-label">Forecast</div>';
+        html += '<div class="forecast-list">';
+        os.ForecastData.forEach(day => {
+          const d = new Date(day.Date);
+          const dayName = d.toLocaleDateString('en-US', { weekday: 'short', timeZone: 'America/Denver' });
+          const icon = weatherIcon(day.WeatherIconStatus);
+          html += `
+            <div class="forecast-day">
+              <div class="forecast-day-name">${dayName}</div>
+              <span class="material-symbols-outlined forecast-icon">${icon}</span>
+              <div class="forecast-desc">${escHtml(day.WeatherShortDescription || '')}</div>
+              <div class="forecast-temps">
+                <span class="temp-hi">${Math.round(day.HighTempStandard)}°</span>
+                <span class="temp-lo">${Math.round(day.LowTempStandard)}°</span>
+              </div>
+              ${day.SnowFallDayStandard ? `<div class="forecast-snow">❄ ${day.SnowFallDayStandard}"</div>` : ''}
+            </div>`;
+        });
+        html += '</div></div>';
+      }
+    }
+
+    // --- Hourly forecast ---
+    if (os?.HourlyForecastData?.length) {
+      html += '<div class="conditions-section">';
+      html += '<div class="conditions-label">Hourly</div>';
+      html += '<div class="hourly-scroll"><div class="hourly-list">';
+      os.HourlyForecastData.forEach(h => {
+        const d = new Date(h.Date);
+        const hr = d.toLocaleTimeString('en-US', { hour: 'numeric', timeZone: 'America/Denver' });
+        const icon = weatherIcon(h.WeatherIconStatus);
+        html += `
+          <div class="hourly-item">
+            <div class="hourly-time">${hr}</div>
+            <span class="material-symbols-outlined hourly-icon">${icon}</span>
+            <div class="hourly-temp">${Math.round(h.TempStandard)}°</div>
+            <div class="hourly-wind">${Math.round(h.WindSpeed)}<small>mph</small></div>
+          </div>`;
+      });
+      html += '</div></div></div>';
+    }
+
+    // --- Lift-by-lift status from terrain API ---
+    const terrain = data.terrain;
+    if (terrain?.Lifts?.length) {
+      html += '<div class="conditions-section">';
+      html += '<div class="conditions-label">Individual Lift Status</div>';
+      terrain.Lifts.forEach(lift => {
+        const isOpen = /open/i.test(lift.Status);
+        html += `
+          <div class="lift-status-row">
+            <span class="lift-dot ${isOpen ? 'open' : 'closed'}"></span>
+            <span class="lift-status-name">${escHtml(lift.Name)}</span>
+            <span class="lift-status-badge ${isOpen ? 'open' : 'closed'}">${escHtml(lift.Status)}</span>
+          </div>`;
+      });
+      html += '</div>';
+    }
+
+    // --- Links to official pages ---
+    html += '<div class="conditions-section">';
+    html += '<div class="conditions-label">Official Reports</div>';
+    html += `<a href="https://www.parkcitymountain.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx" target="_blank" class="conditions-link">
+      <span class="material-symbols-outlined">open_in_new</span> Terrain & Lift Status
+    </a>`;
+    html += `<a href="https://www.parkcitymountain.com/the-mountain/mountain-conditions/weather-report.aspx" target="_blank" class="conditions-link">
+      <span class="material-symbols-outlined">open_in_new</span> Weather Report
+    </a>`;
+    html += '</div>';
+
+    container.innerHTML = html;
+  }
+
+  function condCard(icon, label, value) {
+    return `
+      <div class="cond-card">
+        <span class="material-symbols-outlined cond-icon">${icon}</span>
+        <div class="cond-value">${value}</div>
+        <div class="cond-label">${label}</div>
+      </div>`;
+  }
+
+  function weatherIcon(code) {
+    // OpenSnow weather icon status codes -> Material Symbols
+    const map = {
+      '1': 'sunny',           // Clear
+      '2': 'sunny',
+      '3': 'partly_cloudy_day',
+      '4': 'partly_cloudy_day',
+      '5': 'cloud',
+      '6': 'cloud',
+      '7': 'foggy',
+      '8': 'rainy',
+      '9': 'rainy',
+      '10': 'thunderstorm',
+      '11': 'sunny',          // Mostly Clear/Sunny
+      '12': 'partly_cloudy_day', // Partly Cloudy
+      '13': 'cloud',          // Mostly Cloudy
+      '14': 'sunny',          // Sunny
+      '15': 'weather_snowy',  // Snow
+      '16': 'weather_snowy',
+      '17': 'weather_snowy',
+      '18': 'ac_unit',        // Heavy Snow
+      '19': 'rainy',
+      '20': 'nights_stay',    // Clear Night
+      '21': 'nights_stay',
+      '22': 'partly_cloudy_night',
+      '23': 'cloud',
+      '24': 'weather_snowy',
+      '25': 'rainy',
+    };
+    return map[code] || 'cloud';
+  }
+
+  function formatTimeAgo(date) {
+    const diff = (Date.now() - date.getTime()) / 1000;
+    if (diff < 60) return 'just now';
+    if (diff < 3600) return Math.floor(diff / 60) + ' min ago';
+    if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
+    return Math.floor(diff / 86400) + 'd ago';
   }
 
   // ============================================================
