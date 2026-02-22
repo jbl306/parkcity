@@ -555,18 +555,18 @@
   function normalizeLiftName(name) {
     return name.toLowerCase()
       .replace(/\(.*?\)/g, '')
-      .replace(/[\u2018\u2019'']/g, "'")
-      .replace(/\s*(express|gondola|lift|6-pack|triple|double|quad|bubble)\s*/gi, ' ')
-      .trim()
-      .replace(/\s+/g, ' ');
+      .replace(/[\u2018\u2019'']/g, '')
+      .replace(/\bmtn\.?\b/g, 'mountain')
+      .replace(/\s*(express|gondola|lift|6-pack|triple|double|quad|bubble)\s*/gi, '')
+      .replace(/[^a-z0-9]/g, '')
+      .trim();
   }
 
   function normalizeTrailName(name) {
     return name.toLowerCase()
-      .replace(/[\u2018\u2019'']/g, "'")
-      .replace(/[^a-z0-9' ]/g, ' ')
-      .trim()
-      .replace(/\s+/g, ' ');
+      .replace(/[\u2018\u2019'']/g, '')
+      .replace(/[^a-z0-9]/g, '')
+      .trim();
   }
 
   function buildTrailStatusMap(groomingAreas) {
