@@ -3,6 +3,26 @@
    Mobile-first, system-aware dark/light mode
    ============================================================ */
 
+/* --- Trail Map Button --- */
+.map-btn {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.5rem;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.map-btn:hover { background: #2563eb; }
+.map-btn .material-symbols-outlined { font-size: 1.25rem; }
+
 /* --- CSS Custom Properties --- */
 :root {
   /* Light mode (default) */
