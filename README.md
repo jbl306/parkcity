@@ -10,12 +10,6 @@ Notes and recommendations compiled from the 4-part [Insider's Guide to Park City
 - [Tree Skiing Guide](recommendations/tree_skiing.md) — Best tree runs and ones to avoid, organized by lift with difficulty ratings
 - [Lift Navigation Graphs](recommendations/lift_navigation_graphs.md) — Visual flowcharts showing how lifts connect, recommended paths, and cross-mountain routes
 
+## Methodology
 
-## Transcripts
-
-Raw transcripts from each video in the series:
-
-- [Part A](transcripts/part_a.txt) — Background & Lower Park City Side
-- [Part B](transcripts/part_b.txt) — Upper Park City Side & Jupiter Peak
-- [Part C](transcripts/part_c.txt) — Background & Lower Canyons Side
-- [Part D](transcripts/part_d.txt) — Upper Canyons Side, Iron Mountain & Tombstone
+All recommendations are sourced from the 4-part [Insider's Guide to Park City](https://www.youtube.com/watch?v=ggtElWFhwi4) YouTube series. Transcripts were auto-downloaded using `yt-dlp`, cleaned of subtitle duplicates, and analyzed to extract trail descriptions, crowd patterns, lift strategies, and terrain warnings. No first-hand skiing experience or external sources were used — everything reflects the opinions and routing advice from the video creator.
