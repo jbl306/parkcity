@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-23T14:42:17.473436+00:00",
+  "scraped_at": "2026-02-23T15:34:12.518294+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -165,7 +165,7 @@
       },
       {
         "Name": "Frostwood Gondola",
-        "Status": "Closed",
+        "Status": "Open",
         "Hours": "8:00 AM - 5:30 PM"
       },
       {
@@ -512,8 +512,8 @@
           },
           {
             "Name": "Georgeanna",
-            "Status": "Open",
-            "IsGroomed": true,
+            "Status": "Closed",
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -548,7 +548,7 @@
           },
           {
             "Name": "Powder Monkey",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "blue"
           },
@@ -578,7 +578,7 @@
           },
           {
             "Name": "Buckeye",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -596,13 +596,13 @@
           },
           {
             "Name": "Sundog",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "black"
           },
           {
             "Name": "Tycoon",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -614,7 +614,7 @@
           },
           {
             "Name": "Black Forest",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
@@ -626,13 +626,13 @@
           },
           {
             "Name": "McConkey's Bowl",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
           {
             "Name": "Molly's",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
@@ -1707,7 +1707,7 @@
           {
             "Name": "Tranquility",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "black"
           },
           {
@@ -2392,14 +2392,14 @@
       "DisplayTotal": false
     },
     "Runs": {
-      "Open": "288",
+      "Open": "280",
       "Total": "349",
       "Text": null,
       "DisplayOpen": true,
       "DisplayTotal": true
     },
     "TerrainPercentage": {
-      "Open": "82",
+      "Open": "80",
       "Total": "100",
       "Text": null,
       "DisplayOpen": true,
@@ -2636,12 +2636,12 @@
       "SortOrder": 0
     },
     "UnitOfMeasure": 1,
-    "WeatherShortDescription": "Sunny",
-    "CurrentTempStandard": 28.0,
-    "CurrentTempMetric": -3.0,
+    "WeatherShortDescription": "Mostly Sunny",
+    "CurrentTempStandard": 29.0,
+    "CurrentTempMetric": -2.0,
     "HighTempStandard": 44.0,
     "HighTempMetric": 6.0,
-    "LowTempStandard": 25.0,
+    "LowTempStandard": 24.0,
     "LowTempMetric": -4.0,
     "SnowReportSections": [
       {
@@ -2663,7 +2663,7 @@
     "OpenLifts": 0,
     "HoursOfOperationTitle": null,
     "CurrentWorkDay": null,
-    "WeatherIcon": "14",
+    "WeatherIcon": "11",
     "MountainCamLink": {
       "Anchor": "",
       "Class": "",
@@ -2691,7 +2691,7 @@
     }
   },
   "opensnow": {
-    "CurrentTempStandard": 28.0,
+    "CurrentTempStandard": 29.0,
     "CurrentTempMetric": -2.0,
     "CurrentUpdated": null,
     "NextUpdated": null,
@@ -2737,20 +2737,7 @@
     ],
     "HourlyForecastData": [
       {
-        "TempStandard": 28.72,
-        "TempMetric": -2.0,
-        "WeatherIconStatus": "14",
-        "WeatherShortDescription": "Sunny",
-        "Wind": "SW",
-        "WindSpeed": 6.35,
-        "WindGustSpeed": 8.12,
-        "WindDirection": 227,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-23T14:00:00Z"
-      },
-      {
-        "TempStandard": 29.8,
+        "TempStandard": 29.85,
         "TempMetric": -2.0,
         "WeatherIconStatus": "11",
         "WeatherShortDescription": "Mostly Sunny",
@@ -2763,7 +2750,7 @@
         "Date": "2026-02-23T15:00:00Z"
       },
       {
-        "TempStandard": 32.77,
+        "TempStandard": 32.82,
         "TempMetric": 0.0,
         "WeatherIconStatus": "11",
         "WeatherShortDescription": "Mostly Sunny",
@@ -2776,7 +2763,7 @@
         "Date": "2026-02-23T16:00:00Z"
       },
       {
-        "TempStandard": 36.12,
+        "TempStandard": 36.17,
         "TempMetric": 2.0,
         "WeatherIconStatus": "11",
         "WeatherShortDescription": "Mostly Sunny",
@@ -2789,7 +2776,7 @@
         "Date": "2026-02-23T17:00:00Z"
       },
       {
-        "TempStandard": 38.31,
+        "TempStandard": 38.36,
         "TempMetric": 3.0,
         "WeatherIconStatus": "12",
         "WeatherShortDescription": "Partly Cloudy",
@@ -2802,35 +2789,48 @@
         "Date": "2026-02-23T18:00:00Z"
       },
       {
-        "TempStandard": 39.63,
+        "TempStandard": 39.34,
         "TempMetric": 4.0,
         "WeatherIconStatus": "10",
         "WeatherShortDescription": "Cloudy",
         "Wind": "SW",
-        "WindSpeed": 6.98,
-        "WindGustSpeed": 12.07,
-        "WindDirection": 222,
+        "WindSpeed": 6.43,
+        "WindGustSpeed": 11.1,
+        "WindDirection": 221,
         "PrecipitationType": 0,
         "ProbabilityOfPrecipitation": 0.0,
         "Date": "2026-02-23T19:00:00Z"
+      },
+      {
+        "TempStandard": 40.17,
+        "TempMetric": 4.0,
+        "WeatherIconStatus": "13",
+        "WeatherShortDescription": "Mostly Cloudy",
+        "Wind": "SW",
+        "WindSpeed": 6.45,
+        "WindGustSpeed": 11.53,
+        "WindDirection": 224,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-23T20:00:00Z"
       }
     ],
     "HighTempStandard": 40.0,
     "HighTempMetric": 4.0,
     "LowTempStandard": 26.0,
     "LowTempMetric": -4.0,
-    "WeatherIconStatus": "14",
+    "WeatherIconStatus": "11",
     "WeatherLongDescription": null,
-    "WeatherShortDescription": "Sunny",
+    "WeatherShortDescription": "Mostly Sunny",
     "Wind": "SW",
-    "WindSpeed": 6.35,
+    "WindSpeed": 7.53,
     "FreezingLevelMetric": null,
     "FreezingLevelStandard": null,
     "SnowFallDayStandard": null,
     "SnowFallDayMetric": null,
     "SnowFallNightStandard": null,
     "SnowFallNightMetric": null,
-    "Date": "2026-02-23T14:00:00Z",
+    "Date": "2026-02-23T15:00:00Z",
     "LastCached": "0001-01-01T00:00:00"
   }
 }
