@@ -27,7 +27,8 @@ const DATA = {
         lift: "3 Kings",
         liftInfo: "triple with loading carpet",
         trails: [
-          { name: "Terrain Parks", difficulty: "varies", desc: "Largest terrain parks at PC: big/medium jumps + large halfpipe" }
+          { name: "Terrain Parks", difficulty: "varies", desc: "Largest terrain parks at PC: big/medium jumps + large halfpipe" },
+          { name: "Silver Hollow", difficulty: "blue", desc: "Quite mild for a blue; only accessible from 3 Kings, loops back to base" }
         ]
       },
       {
@@ -35,7 +36,6 @@ const DATA = {
         liftInfo: "detachable — ski school prioritized, slow general public line",
         trails: [
           { name: "First Time", difficulty: "green", desc: "True bunny hill, fully segregated from advanced traffic" },
-          { name: "Silver Hollow", difficulty: "blue", desc: "Quite mild for a blue, only accessible from 3 Kings" },
           { name: "Turtle Trail / Stoope", difficulty: "green", desc: "Gentle beginner slopes leading to Home Run" }
         ]
       },
@@ -104,7 +104,6 @@ const DATA = {
           { name: "Mid Mountain Meadows", difficulty: "blue", desc: "Steeper than expected for a blue, can get icy" },
           { name: "Belmont", difficulty: "blue", desc: "Not often groomed" },
           { name: "Berg's Bowl", difficulty: "black", desc: "Short, steep, doesn't hold snow; don't recommend" },
-          { name: "TNT", difficulty: "green", desc: "Favorite adventure zone; super long, winding, mostly empty", warning: "Lower section steeper than expected for such a narrow run" },
           { name: "Short Line", difficulty: "green", desc: "Ultra flat route to access Pioneer; not recommended" },
           { name: "Flat Iron", difficulty: "green", desc: "Ultra flat return from Pioneer; one benefit is base area access from Pioneer Pod" },
           { name: "Long Belly / Lil Belly", difficulty: "blue", desc: "Extremely short blue groomers from Lower Jonesy's to Bonanza; allow cut across to base area road" },
@@ -192,6 +191,9 @@ const DATA = {
           { name: "Silver Cliffs", difficulty: "double-black", desc: "Wider chute under namesake cliffs" },
           { name: "Rhino", difficulty: "double-black", desc: "Big spine; bowl left, trees right" },
           { name: "Scots Bull", difficulty: "double-black", desc: "Requires hiking to access; not worth it in most opinions" },
+          { name: "Dead Tree", difficulty: "double-black", desc: "Open face off Jupiter Peak; relatively easier; requires short hike from Jupiter Lift" },
+          { name: "West Face", difficulty: "double-black", desc: "Open face off Jupiter Peak; relatively easier; requires short hike from Jupiter Lift" },
+          { name: "First Bull", difficulty: "double-black", desc: "Open face off Jupiter Peak; relatively easier; requires short hike from Jupiter Lift" },
           { name: "Main Bull", difficulty: "black", desc: "Easiest way down the lift" },
           { name: "Shadow Ridge", difficulty: "black", desc: "Standard bump run down ridge; cool hidden variations" },
           { name: "Fortune Teller", difficulty: "black", desc: "Cliffs/straight lines upper (avoidable); sun-blasted, doesn't hold snow" }
@@ -203,10 +205,7 @@ const DATA = {
         trails: [
           { name: "P-Zone (5 min)", difficulty: "double-black", desc: "Big cornice → technical natural obstacles → traditional trees" },
           { name: "O-Zone (10 min)", difficulty: "double-black", desc: "Large cornice → large bowl area" },
-          { name: "Summit Lines (15 min)", difficulty: "double-black", desc: "Prominent cliffs with chutes between" },
-          { name: "Dead Tree", difficulty: "double-black", desc: "Open face off Jupiter Peak; relatively easier; requires hiking" },
-          { name: "West Face", difficulty: "double-black", desc: "Open face off Jupiter Peak; relatively easier; requires hiking" },
-          { name: "First Bull", difficulty: "double-black", desc: "Open face off Jupiter Peak; relatively easier; requires hiking" }
+          { name: "Summit Lines (15 min)", difficulty: "double-black", desc: "Prominent cliffs with chutes between" }
         ]
       },
       {
@@ -244,7 +243,18 @@ const DATA = {
           { name: "Sixes", difficulty: "black", desc: "Good mellow bump laps at bottom of Doc's Run; conditions not always great" },
           { name: "Outlaw", difficulty: "black", desc: "Good mellow bump laps at bottom of Doc's Run; conditions not always great" },
           { name: "Retreat", difficulty: "blue", desc: "Wider, nicer cruiser on the return from Over and Out" },
-          { name: "Lookout Cabin", difficulty: "info", desc: "Full-service restaurant with fondue; great place to slow down for a few hours" }
+          { name: "Lookout Cabin", difficulty: "info", desc: "Full-service restaurant with fondue; great place to slow down for a few hours" },
+          { name: "Boomer", difficulty: "blue", desc: "Basically a road from Lookout Cabin area to Sun Lodge" },
+          { name: "Broken Arrow", difficulty: "blue", desc: "Cuts the corner between Lookout Cabin and Sun Lodge" },
+          { name: "Grizzly", difficulty: "black", desc: "Sometimes groomed; fantastic steep cruiser when it is" },
+          { name: "GeForce", difficulty: "double-black", desc: "Not crazy long but real steep; big old moguls; true leg burner; great warm-up for the steeps" },
+          { name: "Super Fury", difficulty: "double-black", desc: "Not crazy long but real steep; big old moguls; true leg burner" },
+          { name: "Badlands", difficulty: "double-black", desc: "Very similar to GeForce and Super Fury" },
+          { name: "Black Hole", difficulty: "black", desc: "Keeps pretty good snow; better tree skiing elsewhere" },
+          { name: "Tower", difficulty: "black", desc: "More sun-exposed; tends to have worse snow conditions" },
+          { name: "Diablo", difficulty: "black", desc: "More sun-exposed; tends to have worse snow conditions" },
+          { name: "Arrowhead", difficulty: "blue", desc: "Not groomed often but doesn't get mogulled; lower half becomes road; fastest way to Condor via OBX" },
+          { name: "Sun Lodge", difficulty: "info", desc: "Cafeteria-style lunch; less busy than Red Pine Lodge; preferred lunch spot on canyon side" }
         ]
       },
       {
@@ -283,20 +293,9 @@ const DATA = {
           { name: "Echo + Flume", difficulty: "blue", desc: "Fantastic long blue cruiser combined; gets busy" },
           { name: "Eclipse", difficulty: "black", desc: "Not groomed every night but enough; must-hit when groomed" },
           { name: "Massacre", difficulty: "black", desc: "Straight, fairly steep mogul run; annoying flat runout" },
-          { name: "Transitions", difficulty: "varies", desc: "Only terrain park on canyon side; long with good features" },
-          { name: "Mainline", difficulty: "blue", desc: "Pretty flat then one final drop into Red Pine area; gets busy" },
           { name: "Mineshaft", difficulty: "black", desc: "Pair with Massacre; good mogul run but annoying flat runout to Sun Peak" },
-          { name: "Boomer", difficulty: "blue", desc: "Basically a road from Lookout Cabin area to Sun Lodge" },
-          { name: "Broken Arrow", difficulty: "blue", desc: "Cuts the corner between Lookout Cabin and Sun Lodge" },
-          { name: "Grizzly", difficulty: "black", desc: "Sometimes groomed; fantastic steep cruiser when it is" },
-          { name: "GeForce", difficulty: "double-black", desc: "Not crazy long but real steep; big old moguls; true leg burner; great warm-up for the steeps" },
-          { name: "Super Fury", difficulty: "double-black", desc: "Not crazy long but real steep; big old moguls; true leg burner" },
-          { name: "Badlands", difficulty: "double-black", desc: "Very similar to GeForce and Super Fury" },
-          { name: "Black Hole", difficulty: "black", desc: "Keeps pretty good snow; better tree skiing elsewhere" },
-          { name: "Tower", difficulty: "black", desc: "More sun-exposed; tends to have worse snow conditions" },
-          { name: "Diablo", difficulty: "black", desc: "More sun-exposed; tends to have worse snow conditions" },
-          { name: "Arrowhead", difficulty: "blue", desc: "Not groomed often but doesn't get mogulled; lower half becomes road; fastest way to Condor via OBX" },
-          { name: "Sun Lodge", difficulty: "info", desc: "Cafeteria-style lunch; less busy than Red Pine Lodge; preferred lunch spot on canyon side" }
+          { name: "Transitions", difficulty: "varies", desc: "Only terrain park on canyon side; long with good features" },
+          { name: "Mainline", difficulty: "blue", desc: "Pretty flat then one final drop into Red Pine area; gets busy" }
         ]
       },
       {
@@ -442,11 +441,10 @@ const DATA = {
         trails: [
           { name: "Blaise's Way", difficulty: "blue", desc: "Great upper 2/3; gets flat at bottom" },
           { name: "Highway", difficulty: "blue", desc: "Great upper 2/3; flat at bottom" },
-          { name: "Snowonder", difficulty: "blue", desc: "Nice continuous cruiser all the way down" },
+          { name: "Snow Wonder", difficulty: "blue", desc: "Nice continuous cruiser; turn left off Blaise's Way to avoid the flat bottom" },
           { name: "Mimi's Way", difficulty: "blue", desc: "Off Blaise's Way", warning: "DO NOT turn onto — dead-ends at wrong end of Flat Iron with NO signs" },
           { name: "White Pine", difficulty: "green", desc: "Excruciatingly flat; one of the exit options from Iron Mountain pod" },
           { name: "Golden Spruce", difficulty: "green", desc: "Extremely mellow; brings you down to Dreamcatcher bottom terminal" },
-          { name: "Snow Wonder", difficulty: "green", desc: "Extremely mellow cruiser; avoids the flat bottom of Blaise's Way and Highway" },
           { name: "Cascade", difficulty: "blue", desc: "Road connecting Dreamcatcher bottom to Timberline and Iron Mountain; key transit route" }
         ]
       }
