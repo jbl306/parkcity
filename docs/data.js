@@ -117,13 +117,6 @@ const DATA = {
         liftInfo: "BY FAR worst crowds in all of Park City — AVOID when possible",
         trails: [
           { name: "Claim Jumper", difficulty: "green", desc: "Only real non-road green on main mountain; exceptionally popular — AVOID unless true beginner" },
-          { name: "Parley's Park", difficulty: "blue", desc: "Main run leading to multiple options/forks" },
-          { name: "Sunnyside", difficulty: "blue", desc: "Fantastic blue cruiser; only groomed every other night" },
-          { name: "Carbide Cut", difficulty: "blue", desc: "Groomed nightly; last chance to access Motherlode — TAKE IT" },
-          { name: "Motherlode Meadows", difficulty: "double-black", desc: "Deceptively mild start", warning: "Earns double black in super steep tight trees lower half — do NOT be fooled by the entrance" },
-          { name: "Fools Gold / Glory Hole", difficulty: "black", desc: "Great black mogul runs" },
-          { name: "Prospector", difficulty: "black", desc: "One of easiest blacks at PC (not steep), but busy and icy" },
-          { name: "Mikey's", difficulty: "black", desc: "Groomed ~once a week" },
           { name: "Hidden Splendor", difficulty: "blue", desc: "Good blue cruiser; not groomed every night" },
           { name: "Assessment", difficulty: "blue", desc: "Good blue cruiser in Hidden Splendor area" },
           { name: "Lost Prospector", difficulty: "blue", desc: "Groomed often enough not to be too mogulled" },
@@ -132,7 +125,6 @@ const DATA = {
           { name: "Mel's Alley", difficulty: "green", desc: "Road; poorly signed — go left at all intersections to stay on it" },
           { name: "Shortfuse", difficulty: "green", desc: "Super fun adventure run; shorter than Detonator" },
           { name: "Detonator", difficulty: "green", desc: "Preferred adventure run; much longer than Shortfuse; harder to find via Mel's Alley", warning: "Lower section has a couple steep spots for such a narrow run" },
-          { name: "SingleJack", difficulty: "blue", desc: "Nothing special; easy way to access Thaynes" },
           { name: "Quarter Load", difficulty: "blue", desc: "Widest of the roads from Crescent area to Silverlode" }
         ]
       },
@@ -140,6 +132,14 @@ const DATA = {
         lift: "Motherlode Express",
         liftInfo: "lines a fraction of Silverlode — ALWAYS choose this over Silverlode",
         trails: [
+          { name: "Parley's Park", difficulty: "blue", desc: "Main run accessed from Motherlode top terminal; leads to multiple forks" },
+          { name: "Sunnyside", difficulty: "blue", desc: "Fantastic blue cruiser; only groomed every other night" },
+          { name: "Carbide Cut", difficulty: "blue", desc: "Groomed nightly; last chance to access Motherlode — TAKE IT" },
+          { name: "Motherlode Meadows", difficulty: "double-black", desc: "Deceptively mild start", warning: "Earns double black in super steep tight trees lower half — do NOT be fooled by the entrance" },
+          { name: "Fools Gold / Glory Hole", difficulty: "black", desc: "Great black mogul runs" },
+          { name: "Prospector", difficulty: "black", desc: "One of easiest blacks at PC (not steep), but busy and icy" },
+          { name: "Mikey's", difficulty: "black", desc: "Groomed ~once a week" },
+          { name: "SingleJack", difficulty: "blue", desc: "Nothing special; easy way to access Thaynes" },
           { name: "TNT", difficulty: "green", desc: "Favorite adventure zone; super long, winding, mostly empty" }
         ]
       },
