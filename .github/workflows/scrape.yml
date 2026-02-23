@@ -43,6 +43,16 @@ jobs:
             echo "No changes to conditions.json"
           else
             git commit -m "chore: update conditions data [skip ci]"
-            git pull --rebase origin main
-            git push
+            # Retry up to 3 times in case of concurrent pushes
+            for i in 1 2 3; do
+              git pull --rebase origin main || {
+                # On conflict, always keep our scraped version
+                git checkout --theirs docs/conditions.json
+                git add docs/conditions.json
+                git rebase --continue
+              }
+              git push && break
+              echo "Push attempt $i failed, retrying..."
+              sleep 2
+            done
           fi
