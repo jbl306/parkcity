@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-23T14:25:06.535942+00:00",
+  "scraped_at": "2026-02-23T14:42:17.473436+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -2370,15 +2370,15 @@
   "weather": {
     "Id": "14",
     "Description": "",
-    "ReportDateTime": "02/22/2026 05:45:00",
-    "ReportDateTimeAsDate": "2026-02-22T05:45:00-07:00",
+    "ReportDateTime": "02/23/2026 05:13:00",
+    "ReportDateTimeAsDate": "2026-02-23T05:13:00-07:00",
     "SnowConditions": "Packed Powder",
     "MarketingText": null,
     "AllOpenMessage": "",
     "DisplayReportDateTime": false,
     "DisplayAllOpen": false,
     "Lifts": {
-      "Open": "39",
+      "Open": "40",
       "Total": "43",
       "Text": null,
       "DisplayOpen": true,
@@ -2392,14 +2392,14 @@
       "DisplayTotal": false
     },
     "Runs": {
-      "Open": "272",
+      "Open": "288",
       "Total": "349",
       "Text": null,
       "DisplayOpen": true,
       "DisplayTotal": true
     },
     "TerrainPercentage": {
-      "Open": "77",
+      "Open": "82",
       "Total": "100",
       "Text": null,
       "DisplayOpen": true,
@@ -2417,8 +2417,8 @@
         "Display": false
       },
       "FortyEightHours": {
-        "Inches": "1",
-        "Centimeters": "2",
+        "Inches": "0",
+        "Centimeters": "0",
         "Display": false
       },
       "SevenDays": {
@@ -2454,13 +2454,13 @@
         "Display": false
       },
       "MidMountain": {
-        "Inches": "62",
-        "Centimeters": "157",
+        "Inches": "60",
+        "Centimeters": "152",
         "Display": false
       },
       "BaseArea": {
-        "Inches": "62",
-        "Centimeters": "157",
+        "Inches": "60",
+        "Centimeters": "152",
         "Display": false
       }
     },
@@ -2475,8 +2475,8 @@
       "Display": false
     },
     "WeatherCommentary": {
-      "TodaysReport": "<p>Groomer picks of the day are Quit 'N Time \u00a0&amp; Prospector at the Mountain Village and Pipe Dream &amp; Mercury at the Canyons Village.\u00a0<br>\u00a0<br>\u00a0<br>\u00a0</p>",
-      "WeatherReport": "<p>Mostly sunny, with a high near 33. Wind chill values as low as 7. South southwest wind 7 to 11 mph.\u00a0<br>\u00a0</p>"
+      "TodaysReport": "<p>Groomer picks of the day are King Con Run &amp; King's Crown at the Mountain Village and Pine Draw &amp; White Pine at the Canyons Village.\u00a0<br>\u00a0<br>\u00a0</p>",
+      "WeatherReport": "<p>Mostly sunny, with a high near 37. Southwest wind 7 to 9 mph.\u00a0<br>\u00a0</p>"
     }
   },
   "weather_header": {
