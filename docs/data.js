@@ -20,7 +20,9 @@ const DATA = {
         lift: "Eagle",
         liftInfo: "triple",
         trails: [
-          { name: "CBS", difficulty: "black", desc: "Fantastic steep cruiser, but often closed for racing" }
+          { name: "CBS", difficulty: "black", desc: "Fantastic steep cruiser, but often closed for racing" },
+          { name: "Picabo's", difficulty: "black", desc: "Almost always closed for racing" },
+          { name: "Commitment", difficulty: "black", desc: "Almost always closed for racing" }
         ]
       },
       {
