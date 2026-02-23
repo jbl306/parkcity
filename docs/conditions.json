@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-23T23:22:57.447240+00:00",
+  "scraped_at": "2026-02-23T23:52:32.030926+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -578,7 +578,7 @@
           },
           {
             "Name": "Buckeye",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -602,7 +602,7 @@
           },
           {
             "Name": "Tycoon",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -614,7 +614,7 @@
           },
           {
             "Name": "Black Forest",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
@@ -626,13 +626,13 @@
           },
           {
             "Name": "McConkey's Bowl",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
           {
             "Name": "Molly's",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
@@ -710,7 +710,7 @@
           {
             "Name": "Hidden Splendor",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -722,7 +722,7 @@
           {
             "Name": "Keystone",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -788,7 +788,7 @@
           {
             "Name": "Dynamite",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "black"
           },
           {
@@ -806,7 +806,7 @@
           {
             "Name": "Lost Prospector",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "black"
           },
           {
@@ -824,7 +824,7 @@
           {
             "Name": "Prospector",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "black"
           },
           {
@@ -1181,7 +1181,7 @@
           {
             "Name": "Blaise's Way",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1229,7 +1229,7 @@
           {
             "Name": "Mimi's Way",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1306,7 +1306,7 @@
           {
             "Name": "Alpenglow",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1366,7 +1366,7 @@
           {
             "Name": "McDonalds Meadow",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -1402,7 +1402,7 @@
           {
             "Name": "Sandman",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -1414,13 +1414,13 @@
           {
             "Name": "Trance",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
             "Name": "Twilight",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1527,7 +1527,7 @@
           {
             "Name": "Lower Crowning Glory",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1545,7 +1545,7 @@
           {
             "Name": "Peace",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -1581,7 +1581,7 @@
           {
             "Name": "Sanctuary",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -1808,13 +1808,13 @@
           {
             "Name": "Alley Cat",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "green"
           },
           {
             "Name": "Hidden Bear",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "green"
           },
           {
@@ -2202,8 +2202,8 @@
           },
           {
             "Name": "Upper Boa",
-            "Status": "Closed",
-            "IsGroomed": false,
+            "Status": "Open",
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -2370,15 +2370,15 @@
   "weather": {
     "Id": "14",
     "Description": "",
-    "ReportDateTime": "02/23/2026 05:13:00",
-    "ReportDateTimeAsDate": "2026-02-23T05:13:00-07:00",
+    "ReportDateTime": "02/22/2026 05:45:00",
+    "ReportDateTimeAsDate": "2026-02-22T05:45:00-07:00",
     "SnowConditions": "Packed Powder",
     "MarketingText": null,
     "AllOpenMessage": "",
     "DisplayReportDateTime": false,
     "DisplayAllOpen": false,
     "Lifts": {
-      "Open": "40",
+      "Open": "39",
       "Total": "43",
       "Text": null,
       "DisplayOpen": true,
@@ -2392,14 +2392,14 @@
       "DisplayTotal": false
     },
     "Runs": {
-      "Open": "279",
+      "Open": "272",
       "Total": "349",
       "Text": null,
       "DisplayOpen": true,
       "DisplayTotal": true
     },
     "TerrainPercentage": {
-      "Open": "79",
+      "Open": "77",
       "Total": "100",
       "Text": null,
       "DisplayOpen": true,
@@ -2417,8 +2417,8 @@
         "Display": false
       },
       "FortyEightHours": {
-        "Inches": "0",
-        "Centimeters": "0",
+        "Inches": "1",
+        "Centimeters": "2",
         "Display": false
       },
       "SevenDays": {
@@ -2454,13 +2454,13 @@
         "Display": false
       },
       "MidMountain": {
-        "Inches": "60",
-        "Centimeters": "152",
+        "Inches": "62",
+        "Centimeters": "157",
         "Display": false
       },
       "BaseArea": {
-        "Inches": "60",
-        "Centimeters": "152",
+        "Inches": "62",
+        "Centimeters": "157",
         "Display": false
       }
     },
@@ -2475,8 +2475,8 @@
       "Display": false
     },
     "WeatherCommentary": {
-      "TodaysReport": "<p>Groomer picks of the day are King Con Run &amp; King's Crown at the Mountain Village and Pine Draw &amp; White Pine at the Canyons Village.\u00a0<br>\u00a0<br>\u00a0</p>",
-      "WeatherReport": "<p>Mostly sunny, with a high near 37. Southwest wind 7 to 9 mph.\u00a0<br>\u00a0</p>"
+      "TodaysReport": "<p>Groomer picks of the day are Quit 'N Time \u00a0&amp; Prospector at the Mountain Village and Pipe Dream &amp; Mercury at the Canyons Village.\u00a0<br>\u00a0<br>\u00a0<br>\u00a0</p>",
+      "WeatherReport": "<p>Mostly sunny, with a high near 33. Wind chill values as low as 7. South southwest wind 7 to 11 mph.\u00a0<br>\u00a0</p>"
     }
   },
   "weather_header": {
@@ -2641,8 +2641,8 @@
     "CurrentTempMetric": 6.0,
     "HighTempStandard": 44.0,
     "HighTempMetric": 7.0,
-    "LowTempStandard": 26.0,
-    "LowTempMetric": -4.0,
+    "LowTempStandard": 27.0,
+    "LowTempMetric": -3.0,
     "SnowReportSections": [
       {
         "Depth": {
@@ -2791,8 +2791,8 @@
       {
         "TempStandard": 36.03,
         "TempMetric": 2.0,
-        "WeatherIconStatus": "12",
-        "WeatherShortDescription": "Partly Cloudy",
+        "WeatherIconStatus": "13",
+        "WeatherShortDescription": "Mostly Cloudy",
         "Wind": "SW",
         "WindSpeed": 9.2,
         "WindGustSpeed": 11.97,
