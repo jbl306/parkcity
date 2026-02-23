@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-23T15:34:12.518294+00:00",
+  "scraped_at": "2026-02-23T15:54:14.489547+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -2716,7 +2716,7 @@
         "LastCached": "0001-01-01T00:00:00"
       },
       {
-        "HighTempStandard": 39.0,
+        "HighTempStandard": 40.0,
         "HighTempMetric": 4.0,
         "LowTempStandard": 33.0,
         "LowTempMetric": 0.0,
