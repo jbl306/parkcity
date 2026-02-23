@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-23T16:34:19.253034+00:00",
+  "scraped_at": "2026-02-23T17:43:45.254536+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -2226,7 +2226,7 @@
           },
           {
             "Name": "Kestrel",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -2392,7 +2392,7 @@
       "DisplayTotal": false
     },
     "Runs": {
-      "Open": "276",
+      "Open": "277",
       "Total": "349",
       "Text": null,
       "DisplayOpen": true,
@@ -2637,12 +2637,12 @@
     },
     "UnitOfMeasure": 1,
     "WeatherShortDescription": "Mostly Sunny",
-    "CurrentTempStandard": 33.0,
-    "CurrentTempMetric": 0.0,
+    "CurrentTempStandard": 38.0,
+    "CurrentTempMetric": 3.0,
     "HighTempStandard": 44.0,
     "HighTempMetric": 6.0,
-    "LowTempStandard": 23.0,
-    "LowTempMetric": -5.0,
+    "LowTempStandard": 25.0,
+    "LowTempMetric": -4.0,
     "SnowReportSections": [
       {
         "Depth": {
@@ -2691,8 +2691,8 @@
     }
   },
   "opensnow": {
-    "CurrentTempStandard": 33.0,
-    "CurrentTempMetric": 0.0,
+    "CurrentTempStandard": 36.0,
+    "CurrentTempMetric": 2.0,
     "CurrentUpdated": null,
     "NextUpdated": null,
     "ForecastData": [
@@ -2737,23 +2737,10 @@
     ],
     "HourlyForecastData": [
       {
-        "TempStandard": 33.01,
-        "TempMetric": 0.0,
-        "WeatherIconStatus": "11",
-        "WeatherShortDescription": "Mostly Sunny",
-        "Wind": "SW",
-        "WindSpeed": 8.1,
-        "WindGustSpeed": 11.04,
-        "WindDirection": 218,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-23T16:00:00Z"
-      },
-      {
         "TempStandard": 36.49,
         "TempMetric": 2.0,
-        "WeatherIconStatus": "12",
-        "WeatherShortDescription": "Partly Cloudy",
+        "WeatherIconStatus": "11",
+        "WeatherShortDescription": "Mostly Sunny",
         "Wind": "SW",
         "WindSpeed": 7.05,
         "WindGustSpeed": 11.72,
@@ -2765,8 +2752,8 @@
       {
         "TempStandard": 38.41,
         "TempMetric": 3.0,
-        "WeatherIconStatus": "13",
-        "WeatherShortDescription": "Mostly Cloudy",
+        "WeatherIconStatus": "12",
+        "WeatherShortDescription": "Partly Cloudy",
         "Wind": "SW",
         "WindSpeed": 6.75,
         "WindGustSpeed": 11.3,
@@ -2813,6 +2800,19 @@
         "PrecipitationType": 0,
         "ProbabilityOfPrecipitation": 0.0,
         "Date": "2026-02-23T21:00:00Z"
+      },
+      {
+        "TempStandard": 40.59,
+        "TempMetric": 4.0,
+        "WeatherIconStatus": "10",
+        "WeatherShortDescription": "Cloudy",
+        "Wind": "SW",
+        "WindSpeed": 6.8,
+        "WindGustSpeed": 11.77,
+        "WindDirection": 230,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-23T22:00:00Z"
       }
     ],
     "HighTempStandard": 40.0,
@@ -2823,14 +2823,14 @@
     "WeatherLongDescription": null,
     "WeatherShortDescription": "Mostly Sunny",
     "Wind": "SW",
-    "WindSpeed": 8.1,
+    "WindSpeed": 7.05,
     "FreezingLevelMetric": null,
     "FreezingLevelStandard": null,
     "SnowFallDayStandard": null,
     "SnowFallDayMetric": null,
     "SnowFallNightStandard": null,
     "SnowFallNightMetric": null,
-    "Date": "2026-02-23T16:00:00Z",
+    "Date": "2026-02-23T17:00:00Z",
     "LastCached": "0001-01-01T00:00:00"
   }
 }
