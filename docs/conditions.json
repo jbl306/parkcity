@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-24T18:39:48.027464+00:00",
+  "scraped_at": "2026-02-24T19:37:54.654455+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -1610,7 +1610,7 @@
           },
           {
             "Name": "Tombstone Alley",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "blue"
           },
@@ -2392,7 +2392,7 @@
       "DisplayTotal": false
     },
     "Runs": {
-      "Open": "281",
+      "Open": "280",
       "Total": "349",
       "Text": null,
       "DisplayOpen": true,
@@ -2636,8 +2636,8 @@
       "SortOrder": 0
     },
     "UnitOfMeasure": 1,
-    "WeatherShortDescription": "Mostly Cloudy",
-    "CurrentTempStandard": 42.0,
+    "WeatherShortDescription": "Rain Showers",
+    "CurrentTempStandard": 41.0,
     "CurrentTempMetric": 5.0,
     "HighTempStandard": 42.0,
     "HighTempMetric": 5.0,
@@ -2663,7 +2663,7 @@
     "OpenLifts": 0,
     "HoursOfOperationTitle": null,
     "CurrentWorkDay": null,
-    "WeatherIcon": "13",
+    "WeatherIcon": "4",
     "MountainCamLink": {
       "Anchor": "",
       "Class": "",
@@ -2737,19 +2737,6 @@
     ],
     "HourlyForecastData": [
       {
-        "TempStandard": 38.84,
-        "TempMetric": 3.0,
-        "WeatherIconStatus": "13",
-        "WeatherShortDescription": "Mostly Cloudy",
-        "Wind": "WSW",
-        "WindSpeed": 15.54,
-        "WindGustSpeed": 26.92,
-        "WindDirection": 252,
-        "PrecipitationType": 3,
-        "ProbabilityOfPrecipitation": 0.2,
-        "Date": "2026-02-24T18:00:00Z"
-      },
-      {
         "TempStandard": 38.4,
         "TempMetric": 3.0,
         "WeatherIconStatus": "4",
@@ -2759,7 +2746,7 @@
         "WindGustSpeed": 27.48,
         "WindDirection": 254,
         "PrecipitationType": 3,
-        "ProbabilityOfPrecipitation": 0.36,
+        "ProbabilityOfPrecipitation": 0.38,
         "Date": "2026-02-24T19:00:00Z"
       },
       {
@@ -2772,7 +2759,7 @@
         "WindGustSpeed": 23.64,
         "WindDirection": 257,
         "PrecipitationType": 3,
-        "ProbabilityOfPrecipitation": 0.54,
+        "ProbabilityOfPrecipitation": 0.55,
         "Date": "2026-02-24T20:00:00Z"
       },
       {
@@ -2798,7 +2785,7 @@
         "WindGustSpeed": 28.98,
         "WindDirection": 257,
         "PrecipitationType": 3,
-        "ProbabilityOfPrecipitation": 0.81,
+        "ProbabilityOfPrecipitation": 0.8,
         "Date": "2026-02-24T22:00:00Z"
       },
       {
@@ -2813,24 +2800,37 @@
         "PrecipitationType": 3,
         "ProbabilityOfPrecipitation": 0.84,
         "Date": "2026-02-24T23:00:00Z"
+      },
+      {
+        "TempStandard": 37.63,
+        "TempMetric": 3.0,
+        "WeatherIconStatus": "3",
+        "WeatherShortDescription": "Rain",
+        "Wind": "WSW",
+        "WindSpeed": 15.04,
+        "WindGustSpeed": 28.03,
+        "WindDirection": 256,
+        "PrecipitationType": 3,
+        "ProbabilityOfPrecipitation": 0.88,
+        "Date": "2026-02-25T00:00:00Z"
       }
     ],
     "HighTempStandard": 38.0,
     "HighTempMetric": 3.0,
     "LowTempStandard": 31.0,
     "LowTempMetric": -1.0,
-    "WeatherIconStatus": "13",
+    "WeatherIconStatus": "4",
     "WeatherLongDescription": null,
-    "WeatherShortDescription": "Mostly Cloudy",
+    "WeatherShortDescription": "Rain Showers",
     "Wind": "WSW",
-    "WindSpeed": 15.54,
+    "WindSpeed": 14.98,
     "FreezingLevelMetric": null,
     "FreezingLevelStandard": null,
     "SnowFallDayStandard": null,
     "SnowFallDayMetric": null,
     "SnowFallNightStandard": null,
     "SnowFallNightMetric": null,
-    "Date": "2026-02-24T18:00:00Z",
+    "Date": "2026-02-24T19:00:00Z",
     "LastCached": "0001-01-01T00:00:00"
   }
 }
