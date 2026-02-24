@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-24T22:35:46.525304+00:00",
+  "scraped_at": "2026-02-24T23:04:03.160836+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -2392,14 +2392,14 @@
       "DisplayTotal": false
     },
     "Runs": {
-      "Open": "279",
+      "Open": "280",
       "Total": "349",
       "Text": null,
       "DisplayOpen": true,
       "DisplayTotal": true
     },
     "TerrainPercentage": {
-      "Open": "79",
+      "Open": "80",
       "Total": "100",
       "Text": null,
       "DisplayOpen": true,
@@ -2759,7 +2759,7 @@
         "WindGustSpeed": 28.38,
         "WindDirection": 257,
         "PrecipitationType": 3,
-        "ProbabilityOfPrecipitation": 0.82,
+        "ProbabilityOfPrecipitation": 0.83,
         "Date": "2026-02-24T23:00:00Z"
       },
       {
@@ -2772,7 +2772,7 @@
         "WindGustSpeed": 25.21,
         "WindDirection": 256,
         "PrecipitationType": 3,
-        "ProbabilityOfPrecipitation": 0.8,
+        "ProbabilityOfPrecipitation": 0.82,
         "Date": "2026-02-25T00:00:00Z"
       },
       {
@@ -2785,7 +2785,7 @@
         "WindGustSpeed": 25.95,
         "WindDirection": 254,
         "PrecipitationType": 3,
-        "ProbabilityOfPrecipitation": 0.84,
+        "ProbabilityOfPrecipitation": 0.85,
         "Date": "2026-02-25T01:00:00Z"
       },
       {
