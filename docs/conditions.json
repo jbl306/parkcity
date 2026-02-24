@@ -1,51 +1,51 @@
 {
-  "scraped_at": "2026-02-24T23:04:03.160836+00:00",
+  "scraped_at": "2026-02-24T23:44:27.301602+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
       {
         "Name": "Crescent Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Eagle Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:45 PM"
       },
       {
         "Name": "First Time Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "8:45 AM - 4:00 PM"
       },
       {
         "Name": "PayDay Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "3 Kings Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Town Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Mine Cart",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Mule Train",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Bonanza Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
@@ -55,27 +55,27 @@
       },
       {
         "Name": "Pioneer Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:30 PM"
       },
       {
         "Name": "Motherlode Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Silverlode Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Thaynes Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "King Con Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
@@ -85,37 +85,37 @@
       },
       {
         "Name": "Silver Star Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:45 PM"
       },
       {
         "Name": "Jupiter Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
         "Name": "Quicksilver Canyons Side",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
         "Name": "Quicksilver MV Side",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
         "Name": "Iron Mtn. Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:30 PM"
       },
       {
         "Name": "Flat Iron",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
         "Name": "Timberline",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:20 PM"
       },
       {
@@ -125,37 +125,37 @@
       },
       {
         "Name": "Day Break",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:30 AM - 3:30 PM"
       },
       {
         "Name": "Dreamcatcher",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:30 AM - 3:30 PM"
       },
       {
         "Name": "Dreamscape",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:30 AM - 3:30 PM"
       },
       {
         "Name": "9990 Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
         "Name": "Tombstone Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Over and Out",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Peak 5",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
@@ -170,7 +170,7 @@
       },
       {
         "Name": "Red Pine Gondola",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
@@ -180,42 +180,42 @@
       },
       {
         "Name": "Orange Bubble Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Saddleback Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Sun Peak Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "High Meadow",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Shortcut",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Rip Cord",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Sweet Pea",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Super Condor Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:30 PM"
       }
     ],
@@ -710,7 +710,7 @@
           {
             "Name": "Hidden Splendor",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -734,7 +734,7 @@
           {
             "Name": "Parley's Park",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -788,7 +788,7 @@
           {
             "Name": "Dynamite",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "black"
           },
           {
@@ -806,7 +806,7 @@
           {
             "Name": "Lost Prospector",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "black"
           },
           {
@@ -824,7 +824,7 @@
           {
             "Name": "Prospector",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "black"
           },
           {
@@ -871,7 +871,7 @@
           {
             "Name": "Rosebud",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "green"
           },
           {
@@ -1211,7 +1211,7 @@
           {
             "Name": "Golden Spruce",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1229,7 +1229,7 @@
           {
             "Name": "Mimi's Way",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -1306,7 +1306,7 @@
           {
             "Name": "Alpenglow",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -1366,7 +1366,7 @@
           {
             "Name": "McDonalds Meadow",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1396,13 +1396,13 @@
           {
             "Name": "Reaper",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
             "Name": "Sandman",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1575,19 +1575,19 @@
           {
             "Name": "Royal",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
             "Name": "Sanctuary",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
             "Name": "Serenity",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -1683,7 +1683,7 @@
           {
             "Name": "Sidewinder",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "black"
           },
           {
@@ -2184,8 +2184,8 @@
           },
           {
             "Name": "Lower Boa",
-            "Status": "Closed",
-            "IsGroomed": false,
+            "Status": "Open",
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -2197,7 +2197,7 @@
           {
             "Name": "Upper Apex Ridge",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -2214,7 +2214,7 @@
           },
           {
             "Name": "Canis Lupus",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -2238,7 +2238,7 @@
           },
           {
             "Name": "Rendezvous Ridge",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -2392,7 +2392,7 @@
       "DisplayTotal": false
     },
     "Runs": {
-      "Open": "280",
+      "Open": "282",
       "Total": "349",
       "Text": null,
       "DisplayOpen": true,
@@ -2737,19 +2737,6 @@
     ],
     "HourlyForecastData": [
       {
-        "TempStandard": 38.46,
-        "TempMetric": 3.0,
-        "WeatherIconStatus": "3",
-        "WeatherShortDescription": "Rain",
-        "Wind": "W",
-        "WindSpeed": 17.73,
-        "WindGustSpeed": 32.67,
-        "WindDirection": 260,
-        "PrecipitationType": 3,
-        "ProbabilityOfPrecipitation": 0.81,
-        "Date": "2026-02-24T22:00:00Z"
-      },
-      {
         "TempStandard": 38.16,
         "TempMetric": 3.0,
         "WeatherIconStatus": "3",
@@ -2813,6 +2800,19 @@
         "PrecipitationType": 3,
         "ProbabilityOfPrecipitation": 0.93,
         "Date": "2026-02-25T03:00:00Z"
+      },
+      {
+        "TempStandard": 36.28,
+        "TempMetric": 2.0,
+        "WeatherIconStatus": "3",
+        "WeatherShortDescription": "Rain",
+        "Wind": "W",
+        "WindSpeed": 12.69,
+        "WindGustSpeed": 21.77,
+        "WindDirection": 261,
+        "PrecipitationType": 3,
+        "ProbabilityOfPrecipitation": 0.95,
+        "Date": "2026-02-25T04:00:00Z"
       }
     ],
     "HighTempStandard": 39.0,
@@ -2822,15 +2822,15 @@
     "WeatherIconStatus": "3",
     "WeatherLongDescription": null,
     "WeatherShortDescription": "Rain",
-    "Wind": "W",
-    "WindSpeed": 17.73,
+    "Wind": "WSW",
+    "WindSpeed": 15.37,
     "FreezingLevelMetric": null,
     "FreezingLevelStandard": null,
     "SnowFallDayStandard": null,
     "SnowFallDayMetric": null,
     "SnowFallNightStandard": null,
     "SnowFallNightMetric": null,
-    "Date": "2026-02-24T22:00:00Z",
+    "Date": "2026-02-24T23:00:00Z",
     "LastCached": "0001-01-01T00:00:00"
   }
 }
