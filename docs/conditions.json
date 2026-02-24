@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-24T19:37:54.654455+00:00",
+  "scraped_at": "2026-02-24T20:02:22.933606+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -2746,20 +2746,20 @@
         "WindGustSpeed": 27.48,
         "WindDirection": 254,
         "PrecipitationType": 3,
-        "ProbabilityOfPrecipitation": 0.38,
+        "ProbabilityOfPrecipitation": 0.33,
         "Date": "2026-02-24T19:00:00Z"
       },
       {
         "TempStandard": 38.5,
         "TempMetric": 3.0,
-        "WeatherIconStatus": "3",
-        "WeatherShortDescription": "Rain",
+        "WeatherIconStatus": "4",
+        "WeatherShortDescription": "Rain Showers",
         "Wind": "WSW",
         "WindSpeed": 13.39,
         "WindGustSpeed": 23.64,
         "WindDirection": 257,
         "PrecipitationType": 3,
-        "ProbabilityOfPrecipitation": 0.55,
+        "ProbabilityOfPrecipitation": 0.45,
         "Date": "2026-02-24T20:00:00Z"
       },
       {
