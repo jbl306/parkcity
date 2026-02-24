@@ -1,51 +1,51 @@
 {
-  "scraped_at": "2026-02-23T23:52:32.030926+00:00",
+  "scraped_at": "2026-02-24T01:18:34.841152+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
       {
         "Name": "Crescent Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Eagle Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:45 PM"
       },
       {
         "Name": "First Time Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "8:45 AM - 4:00 PM"
       },
       {
         "Name": "PayDay Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "3 Kings Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Town Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Mine Cart",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Mule Train",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Bonanza Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
@@ -55,27 +55,27 @@
       },
       {
         "Name": "Pioneer Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:30 PM"
       },
       {
         "Name": "Motherlode Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Silverlode Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Thaynes Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "King Con Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
@@ -85,37 +85,37 @@
       },
       {
         "Name": "Silver Star Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:45 PM"
       },
       {
         "Name": "Jupiter Lift",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
         "Name": "Quicksilver Canyons Side",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
         "Name": "Quicksilver MV Side",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
         "Name": "Iron Mtn. Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:30 PM"
       },
       {
         "Name": "Flat Iron",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
         "Name": "Timberline",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:20 PM"
       },
       {
@@ -125,97 +125,97 @@
       },
       {
         "Name": "Day Break",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:30 AM - 3:30 PM"
       },
       {
         "Name": "Dreamcatcher",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:30 AM - 3:30 PM"
       },
       {
         "Name": "Dreamscape",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:30 AM - 3:30 PM"
       },
       {
         "Name": "9990 Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
         "Name": "Tombstone Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Over and Out",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Peak 5",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:15 AM - 3:30 PM"
       },
       {
         "Name": "Cabriolet",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "7:00 AM - 6:00 PM"
       },
       {
         "Name": "Frostwood Gondola",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "8:00 AM - 5:30 PM"
       },
       {
         "Name": "Red Pine Gondola",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Sunrise Gondola",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Orange Bubble Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Saddleback Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Sun Peak Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "High Meadow",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Shortcut",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Rip Cord",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Sweet Pea",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
         "Name": "Super Condor Express",
-        "Status": "Open",
+        "Status": "Closed",
         "Hours": "9:00 AM - 3:30 PM"
       }
     ],
@@ -602,7 +602,7 @@
           },
           {
             "Name": "Tycoon",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -614,7 +614,7 @@
           },
           {
             "Name": "Black Forest",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
@@ -626,13 +626,13 @@
           },
           {
             "Name": "McConkey's Bowl",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
           {
             "Name": "Molly's",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
@@ -2637,8 +2637,8 @@
     },
     "UnitOfMeasure": 1,
     "WeatherShortDescription": "Mostly Cloudy",
-    "CurrentTempStandard": 43.0,
-    "CurrentTempMetric": 6.0,
+    "CurrentTempStandard": 40.0,
+    "CurrentTempMetric": 4.0,
     "HighTempStandard": 44.0,
     "HighTempMetric": 7.0,
     "LowTempStandard": 27.0,
@@ -2691,8 +2691,8 @@
     }
   },
   "opensnow": {
-    "CurrentTempStandard": 40.0,
-    "CurrentTempMetric": 4.0,
+    "CurrentTempStandard": 38.0,
+    "CurrentTempMetric": 3.0,
     "CurrentUpdated": null,
     "NextUpdated": null,
     "ForecastData": [
@@ -2736,32 +2736,6 @@
       }
     ],
     "HourlyForecastData": [
-      {
-        "TempStandard": 40.72,
-        "TempMetric": 4.0,
-        "WeatherIconStatus": "13",
-        "WeatherShortDescription": "Mostly Cloudy",
-        "Wind": "SW",
-        "WindSpeed": 7.81,
-        "WindGustSpeed": 13.69,
-        "WindDirection": 235,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-23T23:00:00Z"
-      },
-      {
-        "TempStandard": 39.65,
-        "TempMetric": 4.0,
-        "WeatherIconStatus": "13",
-        "WeatherShortDescription": "Mostly Cloudy",
-        "Wind": "SW",
-        "WindSpeed": 7.26,
-        "WindGustSpeed": 11.84,
-        "WindDirection": 234,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-24T00:00:00Z"
-      },
       {
         "TempStandard": 38.02,
         "TempMetric": 3.0,
@@ -2813,6 +2787,32 @@
         "PrecipitationType": 0,
         "ProbabilityOfPrecipitation": 0.0,
         "Date": "2026-02-24T04:00:00Z"
+      },
+      {
+        "TempStandard": 35.27,
+        "TempMetric": 1.0,
+        "WeatherIconStatus": "13",
+        "WeatherShortDescription": "Mostly Cloudy",
+        "Wind": "SW",
+        "WindSpeed": 10.13,
+        "WindGustSpeed": 12.81,
+        "WindDirection": 229,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-24T05:00:00Z"
+      },
+      {
+        "TempStandard": 34.65,
+        "TempMetric": 1.0,
+        "WeatherIconStatus": "10",
+        "WeatherShortDescription": "Cloudy",
+        "Wind": "SW",
+        "WindSpeed": 11.55,
+        "WindGustSpeed": 15.11,
+        "WindDirection": 225,
+        "PrecipitationType": 0,
+        "ProbabilityOfPrecipitation": 0.0,
+        "Date": "2026-02-24T06:00:00Z"
       }
     ],
     "HighTempStandard": 40.0,
@@ -2823,14 +2823,14 @@
     "WeatherLongDescription": null,
     "WeatherShortDescription": "Mostly Cloudy",
     "Wind": "SW",
-    "WindSpeed": 7.81,
+    "WindSpeed": 8.17,
     "FreezingLevelMetric": null,
     "FreezingLevelStandard": null,
     "SnowFallDayStandard": null,
     "SnowFallDayMetric": null,
     "SnowFallNightStandard": null,
     "SnowFallNightMetric": null,
-    "Date": "2026-02-23T23:00:00Z",
+    "Date": "2026-02-24T01:00:00Z",
     "LastCached": "0001-01-01T00:00:00"
   }
 }
