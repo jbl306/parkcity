@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-23T03:49:25.120290+00:00",
+  "scraped_at": "2026-02-25T00:03:42.290105+00:00",
   "terrain": {
     "IsSuccessful": true,
     "Lifts": [
@@ -175,7 +175,7 @@
       },
       {
         "Name": "Sunrise Gondola",
-        "Status": "Closed",
+        "Status": "Open",
         "Hours": "9:00 AM - 4:00 PM"
       },
       {
@@ -512,8 +512,8 @@
           },
           {
             "Name": "Georgeanna",
-            "Status": "Open",
-            "IsGroomed": true,
+            "Status": "Closed",
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -596,13 +596,13 @@
           },
           {
             "Name": "Sundog",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "black"
           },
           {
             "Name": "Tycoon",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -614,7 +614,7 @@
           },
           {
             "Name": "Black Forest",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
@@ -626,13 +626,13 @@
           },
           {
             "Name": "McConkey's Bowl",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
           {
             "Name": "Molly's",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
@@ -650,7 +650,7 @@
           },
           {
             "Name": "Pinyon Ridge",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "double-black"
           },
@@ -722,19 +722,19 @@
           {
             "Name": "Keystone",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
             "Name": "Mel's Alley",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
             "Name": "Parley's Park",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -788,7 +788,7 @@
           {
             "Name": "Dynamite",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "black"
           },
           {
@@ -871,7 +871,7 @@
           {
             "Name": "Rosebud",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "green"
           },
           {
@@ -954,7 +954,7 @@
           },
           {
             "Name": "Spiro",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "blue"
           },
@@ -1181,7 +1181,7 @@
           {
             "Name": "Blaise's Way",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1204,14 +1204,14 @@
           },
           {
             "Name": "Double Nickel",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
             "Name": "Golden Spruce",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1396,7 +1396,7 @@
           {
             "Name": "Reaper",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -1414,13 +1414,13 @@
           {
             "Name": "Trance",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
             "Name": "Twilight",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1545,7 +1545,7 @@
           {
             "Name": "Peace",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -1575,7 +1575,7 @@
           {
             "Name": "Royal",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -1587,7 +1587,7 @@
           {
             "Name": "Serenity",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "blue"
           },
           {
@@ -1610,7 +1610,7 @@
           },
           {
             "Name": "Tombstone Alley",
-            "Status": "Open",
+            "Status": "Closed",
             "IsGroomed": false,
             "Difficulty": "blue"
           },
@@ -1683,7 +1683,7 @@
           {
             "Name": "Sidewinder",
             "Status": "Open",
-            "IsGroomed": false,
+            "IsGroomed": true,
             "Difficulty": "black"
           },
           {
@@ -1808,7 +1808,7 @@
           {
             "Name": "Alley Cat",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "green"
           },
           {
@@ -2178,8 +2178,8 @@
           },
           {
             "Name": "EZ Street",
-            "Status": "Open",
-            "IsGroomed": true,
+            "Status": "Closed",
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -2197,7 +2197,7 @@
           {
             "Name": "Upper Apex Ridge",
             "Status": "Open",
-            "IsGroomed": true,
+            "IsGroomed": false,
             "Difficulty": "blue"
           },
           {
@@ -2214,7 +2214,7 @@
           },
           {
             "Name": "Canis Lupus",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -2226,7 +2226,7 @@
           },
           {
             "Name": "Kestrel",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -2238,7 +2238,7 @@
           },
           {
             "Name": "Rendezvous Ridge",
-            "Status": "Closed",
+            "Status": "Open",
             "IsGroomed": false,
             "Difficulty": "black"
           },
@@ -2370,8 +2370,8 @@
   "weather": {
     "Id": "14",
     "Description": "",
-    "ReportDateTime": "02/22/2026 05:45:00",
-    "ReportDateTimeAsDate": "2026-02-22T05:45:00-07:00",
+    "ReportDateTime": "02/24/2026 05:08:00",
+    "ReportDateTimeAsDate": "2026-02-24T05:08:00-07:00",
     "SnowConditions": "Packed Powder",
     "MarketingText": null,
     "AllOpenMessage": "",
@@ -2392,14 +2392,14 @@
       "DisplayTotal": false
     },
     "Runs": {
-      "Open": "288",
+      "Open": "282",
       "Total": "349",
       "Text": null,
       "DisplayOpen": true,
       "DisplayTotal": true
     },
     "TerrainPercentage": {
-      "Open": "82",
+      "Open": "80",
       "Total": "100",
       "Text": null,
       "DisplayOpen": true,
@@ -2417,13 +2417,13 @@
         "Display": false
       },
       "FortyEightHours": {
-        "Inches": "1",
-        "Centimeters": "2",
+        "Inches": "0",
+        "Centimeters": "0",
         "Display": false
       },
       "SevenDays": {
-        "Inches": "33",
-        "Centimeters": "83",
+        "Inches": "30",
+        "Centimeters": "76",
         "Display": false
       },
       "OvernightSummit": {
@@ -2454,13 +2454,13 @@
         "Display": false
       },
       "MidMountain": {
-        "Inches": "62",
-        "Centimeters": "157",
+        "Inches": "59",
+        "Centimeters": "149",
         "Display": false
       },
       "BaseArea": {
-        "Inches": "62",
-        "Centimeters": "157",
+        "Inches": "59",
+        "Centimeters": "149",
         "Display": false
       }
     },
@@ -2475,8 +2475,8 @@
       "Display": false
     },
     "WeatherCommentary": {
-      "TodaysReport": "<p>Groomer picks of the day are Quit 'N Time \u00a0&amp; Prospector at the Mountain Village and Pipe Dream &amp; Mercury at the Canyons Village.\u00a0<br>\u00a0<br>\u00a0<br>\u00a0</p>",
-      "WeatherReport": "<p>Mostly sunny, with a high near 33. Wind chill values as low as 7. South southwest wind 7 to 11 mph.\u00a0<br>\u00a0</p>"
+      "TodaysReport": "<p>Groomer picks of the day are Prospector &amp; Hidden Splendor at the Mountain Village and Another World &amp; Snow Dancer at the Canyons Village.\u00a0</p>",
+      "WeatherReport": "<p>Snow, mainly after 2pm. Steady temperature around 32. West southwest wind 10 to 13 mph. Chance of precipitation is 80%. Total daytime snow accumulation of less than one inch possible.\u00a0</p>"
     }
   },
   "weather_header": {
@@ -2546,7 +2546,7 @@
           "Language": null,
           "MediaExists": false
         },
-        "SignInCtaText": "<p data-nosnippet>As an Epic Pass holder, you get 20% off food, lodging, lessons, rentals, and more.  See <a href=\"https://www.epicpass.com/benefits/EMR-terms-and-conditions.aspx\">Terms and Conditions</a> for additional information on eligible passes and a list of all participating locations.</p>",
+        "SignInCtaText": "<p data-nosnippet>As an Epic Pass Holder, you get 20% off food, lodging, lessons, rentals and more. See <a href=\"https://www.epicpass.com/benefits/EMR-terms-and-conditions.aspx\">Terms and Conditions</a> for additional information on eligible Passes and a list of all participating locations.</p>",
         "CreateAccountCtaImage": {
           "Url": "/-/aemasset/image/upload/Global/epic-mountain-rewards/create_account_icon_darkgray.svg",
           "Path": "/image/upload/Global/epic-mountain-rewards/create_account_icon_darkgray.svg",
@@ -2572,8 +2572,8 @@
           "Language": null,
           "MediaExists": false
         },
-        "CreateAccountCtaText": "<p data-nosnippet>Access your exclusive Epic Pass holder savings, including 20% off food, lodging, lessons, rentals, and more with Epic Mountain Rewards.  See <a href=\"https://www.epicpass.com/benefits/EMR-terms-and-conditions.aspx\">Terms and Conditions</a> for additional information on eligible passes and a list of all participating locations.</p>",
-        "ContinueAsAGuestText": "You can create an account at the end of checkout to save information for future purchases ",
+        "CreateAccountCtaText": "<p data-nosnippet>Access your exclusive Epic Pass Holder savings, including 20% off food, lodging, lessons, rentals and more with Epic Mountain Rewards. See <a href=\"https://www.epicpass.com/benefits/EMR-terms-and-conditions.aspx\">Terms and Conditions</a> for additional information on eligible Passes and a list of all participating locations.</p>",
+        "ContinueAsAGuestText": "Create an account at the end of checkout to save information for future purchases.",
         "CreateAnAccountText": "",
         "Id": "6d6061d7-8dd4-48b3-82d4-50b64019d9c4",
         "Name": "Global Login",
@@ -2636,13 +2636,13 @@
       "SortOrder": 0
     },
     "UnitOfMeasure": 1,
-    "WeatherShortDescription": "Mostly Clear",
-    "CurrentTempStandard": 30.0,
-    "CurrentTempMetric": -1.0,
-    "HighTempStandard": 41.0,
-    "HighTempMetric": 5.0,
-    "LowTempStandard": 17.0,
-    "LowTempMetric": -9.0,
+    "WeatherShortDescription": "Rain",
+    "CurrentTempStandard": 41.0,
+    "CurrentTempMetric": 5.0,
+    "HighTempStandard": 44.0,
+    "HighTempMetric": 6.0,
+    "LowTempStandard": 34.0,
+    "LowTempMetric": 1.0,
     "SnowReportSections": [
       {
         "Depth": {
@@ -2653,8 +2653,8 @@
       },
       {
         "Depth": {
-          "Inches": "62",
-          "Centimeters": "157"
+          "Inches": "59",
+          "Centimeters": "149"
         },
         "Description": "Base<br/>Depth"
       }
@@ -2663,7 +2663,7 @@
     "OpenLifts": 0,
     "HoursOfOperationTitle": null,
     "CurrentWorkDay": null,
-    "WeatherIcon": "11",
+    "WeatherIcon": "3",
     "MountainCamLink": {
       "Anchor": "",
       "Class": "",
@@ -2691,146 +2691,146 @@
     }
   },
   "opensnow": {
-    "CurrentTempStandard": 30.0,
-    "CurrentTempMetric": -1.0,
+    "CurrentTempStandard": 37.0,
+    "CurrentTempMetric": 3.0,
     "CurrentUpdated": null,
     "NextUpdated": null,
     "ForecastData": [
       {
-        "HighTempStandard": 37.0,
-        "HighTempMetric": 2.0,
-        "LowTempStandard": 19.0,
-        "LowTempMetric": -8.0,
-        "WeatherIconStatus": "11",
+        "HighTempStandard": 40.0,
+        "HighTempMetric": 4.0,
+        "LowTempStandard": 33.0,
+        "LowTempMetric": 0.0,
+        "WeatherIconStatus": "5",
         "WeatherLongDescription": null,
-        "WeatherShortDescription": "Mostly Clear",
-        "Wind": "SSW",
-        "WindSpeed": 6.32,
+        "WeatherShortDescription": "Rain/Snow",
+        "Wind": "WSW",
+        "WindSpeed": 12.72,
         "FreezingLevelMetric": null,
         "FreezingLevelStandard": null,
         "SnowFallDayStandard": null,
         "SnowFallDayMetric": null,
         "SnowFallNightStandard": null,
         "SnowFallNightMetric": null,
-        "Date": "2026-02-22T07:00:00Z",
+        "Date": "2026-02-24T07:00:00Z",
         "LastCached": "0001-01-01T00:00:00"
       },
       {
-        "HighTempStandard": 41.0,
-        "HighTempMetric": 5.0,
-        "LowTempStandard": 28.0,
-        "LowTempMetric": -2.0,
-        "WeatherIconStatus": "12",
+        "HighTempStandard": 38.0,
+        "HighTempMetric": 3.0,
+        "LowTempStandard": 32.0,
+        "LowTempMetric": 0.0,
+        "WeatherIconStatus": "5",
         "WeatherLongDescription": null,
-        "WeatherShortDescription": "Partly Cloudy",
-        "Wind": "SW",
-        "WindSpeed": 7.94,
+        "WeatherShortDescription": "Rain/Snow",
+        "Wind": "WNW",
+        "WindSpeed": 14.74,
         "FreezingLevelMetric": null,
         "FreezingLevelStandard": null,
         "SnowFallDayStandard": null,
         "SnowFallDayMetric": null,
         "SnowFallNightStandard": null,
         "SnowFallNightMetric": null,
-        "Date": "2026-02-23T07:00:00Z",
+        "Date": "2026-02-25T07:00:00Z",
         "LastCached": "0001-01-01T00:00:00"
       }
     ],
     "HourlyForecastData": [
       {
-        "TempStandard": 30.33,
-        "TempMetric": -1.0,
-        "WeatherIconStatus": "11",
-        "WeatherShortDescription": "Mostly Clear",
-        "Wind": "SSW",
-        "WindSpeed": 9.31,
-        "WindGustSpeed": 13.12,
-        "WindDirection": 207,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-23T03:00:00Z"
+        "TempStandard": 37.7,
+        "TempMetric": 3.0,
+        "WeatherIconStatus": "3",
+        "WeatherShortDescription": "Rain",
+        "Wind": "WSW",
+        "WindSpeed": 13.28,
+        "WindGustSpeed": 24.33,
+        "WindDirection": 255,
+        "PrecipitationType": 3,
+        "ProbabilityOfPrecipitation": 0.8,
+        "Date": "2026-02-25T00:00:00Z"
       },
       {
-        "TempStandard": 29.97,
-        "TempMetric": -2.0,
-        "WeatherIconStatus": "12",
-        "WeatherShortDescription": "Partly Cloudy",
-        "Wind": "SW",
-        "WindSpeed": 8.79,
-        "WindGustSpeed": 11.87,
-        "WindDirection": 214,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-23T04:00:00Z"
+        "TempStandard": 36.77,
+        "TempMetric": 2.0,
+        "WeatherIconStatus": "3",
+        "WeatherShortDescription": "Rain",
+        "Wind": "WSW",
+        "WindSpeed": 14.1,
+        "WindGustSpeed": 25.25,
+        "WindDirection": 253,
+        "PrecipitationType": 3,
+        "ProbabilityOfPrecipitation": 0.84,
+        "Date": "2026-02-25T01:00:00Z"
       },
       {
-        "TempStandard": 29.61,
-        "TempMetric": -2.0,
-        "WeatherIconStatus": "12",
-        "WeatherShortDescription": "Partly Cloudy",
-        "Wind": "SSW",
-        "WindSpeed": 8.92,
-        "WindGustSpeed": 12.11,
-        "WindDirection": 213,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-23T05:00:00Z"
+        "TempStandard": 36.37,
+        "TempMetric": 2.0,
+        "WeatherIconStatus": "3",
+        "WeatherShortDescription": "Rain",
+        "Wind": "W",
+        "WindSpeed": 13.08,
+        "WindGustSpeed": 21.87,
+        "WindDirection": 259,
+        "PrecipitationType": 3,
+        "ProbabilityOfPrecipitation": 0.88,
+        "Date": "2026-02-25T02:00:00Z"
       },
       {
-        "TempStandard": 29.43,
-        "TempMetric": -2.0,
-        "WeatherIconStatus": "13",
-        "WeatherShortDescription": "Mostly Cloudy",
-        "Wind": "SSW",
-        "WindSpeed": 9.11,
-        "WindGustSpeed": 12.41,
-        "WindDirection": 210,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-23T06:00:00Z"
+        "TempStandard": 36.09,
+        "TempMetric": 2.0,
+        "WeatherIconStatus": "3",
+        "WeatherShortDescription": "Rain",
+        "Wind": "WSW",
+        "WindSpeed": 11.68,
+        "WindGustSpeed": 19.87,
+        "WindDirection": 250,
+        "PrecipitationType": 3,
+        "ProbabilityOfPrecipitation": 0.92,
+        "Date": "2026-02-25T03:00:00Z"
       },
       {
-        "TempStandard": 29.51,
-        "TempMetric": -2.0,
-        "WeatherIconStatus": "13",
-        "WeatherShortDescription": "Mostly Cloudy",
-        "Wind": "SW",
-        "WindSpeed": 8.87,
-        "WindGustSpeed": 11.83,
-        "WindDirection": 220,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-23T07:00:00Z"
+        "TempStandard": 36.3,
+        "TempMetric": 2.0,
+        "WeatherIconStatus": "3",
+        "WeatherShortDescription": "Rain",
+        "Wind": "W",
+        "WindSpeed": 12.73,
+        "WindGustSpeed": 21.84,
+        "WindDirection": 261,
+        "PrecipitationType": 3,
+        "ProbabilityOfPrecipitation": 0.95,
+        "Date": "2026-02-25T04:00:00Z"
       },
       {
-        "TempStandard": 29.62,
-        "TempMetric": -2.0,
-        "WeatherIconStatus": "13",
-        "WeatherShortDescription": "Mostly Cloudy",
-        "Wind": "SW",
-        "WindSpeed": 7.84,
-        "WindGustSpeed": 10.21,
-        "WindDirection": 221,
-        "PrecipitationType": 0,
-        "ProbabilityOfPrecipitation": 0.0,
-        "Date": "2026-02-23T08:00:00Z"
+        "TempStandard": 36.23,
+        "TempMetric": 2.0,
+        "WeatherIconStatus": "3",
+        "WeatherShortDescription": "Rain",
+        "Wind": "W",
+        "WindSpeed": 12.68,
+        "WindGustSpeed": 21.49,
+        "WindDirection": 273,
+        "PrecipitationType": 3,
+        "ProbabilityOfPrecipitation": 0.97,
+        "Date": "2026-02-25T05:00:00Z"
       }
     ],
-    "HighTempStandard": 37.0,
-    "HighTempMetric": 2.0,
-    "LowTempStandard": 19.0,
-    "LowTempMetric": -8.0,
-    "WeatherIconStatus": "11",
+    "HighTempStandard": 40.0,
+    "HighTempMetric": 4.0,
+    "LowTempStandard": 33.0,
+    "LowTempMetric": 0.0,
+    "WeatherIconStatus": "3",
     "WeatherLongDescription": null,
-    "WeatherShortDescription": "Mostly Clear",
-    "Wind": "SSW",
-    "WindSpeed": 9.31,
+    "WeatherShortDescription": "Rain",
+    "Wind": "WSW",
+    "WindSpeed": 13.28,
     "FreezingLevelMetric": null,
     "FreezingLevelStandard": null,
     "SnowFallDayStandard": null,
     "SnowFallDayMetric": null,
     "SnowFallNightStandard": null,
     "SnowFallNightMetric": null,
-    "Date": "2026-02-23T03:00:00Z",
+    "Date": "2026-02-25T00:00:00Z",
     "LastCached": "0001-01-01T00:00:00"
   }
 }
