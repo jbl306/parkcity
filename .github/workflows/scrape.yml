@@ -2,9 +2,9 @@ name: Scrape Live Conditions
 
 on:
   # Run every 10 minutes during resort hours (7am–6pm MT = 14:00–01:00 UTC)
-  schedule:
-    - cron: '*/10 14-23 * 11-12,1-4 *'    # Nov–Apr, 2pm–11:50pm UTC (7am–4:50pm MT)
-    - cron: '*/10 0-1 * 11-12,1-4 *'      # Nov–Apr, 12am–1:50am UTC (5pm–6:50pm MT)
+  # schedule:
+  #   - cron: '*/10 14-23 * 11-12,1-4 *'    # Nov–Apr, 2pm–11:50pm UTC (7am–4:50pm MT)
+  #   - cron: '*/10 0-1 * 11-12,1-4 *'      # Nov–Apr, 12am–1:50am UTC (5pm–6:50pm MT)
   workflow_dispatch:  # Allow manual runs
 
 permissions:
